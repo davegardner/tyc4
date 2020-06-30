@@ -5,11 +5,14 @@
   </head>
 
   <body>
+    <header>
+      {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}</header>
     <h1>
-      Eleventy + Netlify CMS from scratch
+      Tanga Yacht Club
     </h1>
     {{ content | safe }}
 
+    {# The following script supports Netlify CMS #}
     <script>
       if (window.netlifyIdentity) {
         window
