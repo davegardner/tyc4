@@ -1,0 +1,24 @@
+{
+  "name": "tyc4",
+  "version": "1.0.0",
+  "description": "Tanga Yacht Club",
+  "main": "eleventy.js",
+  "dependencies": {
+    "luxon": "^1.24.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Serve": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davegardner/tyc4.git"
+  },
+  "author": "Dave",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davegardner/tyc4/issues"
+  },
+  "homepage": "https://github.com/davegardner/tyc4#readme"
+}
