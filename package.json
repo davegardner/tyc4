@@ -6,7 +6,9 @@
   "dependencies": {
     "luxon": "^1.24.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy-navigation": "^0.1.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "Serve": "npx eleventy --serve"
