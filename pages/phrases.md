@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+title: Swahili Phrases
+permalink: /phrases/
+eleventyNavigation:
+    key: Swahili Phrases
+    order: 6
+---
+asante thanks
+asante sana thankyou very much
+karibou welcome
+poa
+habari  what's the news
+
