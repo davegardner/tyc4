@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 eleventyNavigation:
     key: About
-    order: 3
+    order: 4
 ---
 
 Tanga Yacht Club is incorporated in Tanzania.
