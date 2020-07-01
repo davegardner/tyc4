@@ -3,8 +3,8 @@ layout: layouts/base.njk
 title: Swahili Phrases
 permalink: /phrases/
 eleventyNavigation:
-    key: Swahili Phrases
-    order: 6
+  key: Swahili Phrases
+  order: 6
 ---
 
 | Swahili | English |
