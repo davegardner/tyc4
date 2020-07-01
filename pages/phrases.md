@@ -6,9 +6,11 @@ eleventyNavigation:
     key: Swahili Phrases
     order: 6
 ---
-asante thanks
-asante sana thankyou very much
-karibou welcome
-poa
-habari  what's the news
 
+| Swahili | English |
+| ----------------- | ----------------- |
+| asante | thanks |
+| asante sana | thankyou very much |
+| karibou | welcome |
+| poa | |
+| habari | what's the news |
