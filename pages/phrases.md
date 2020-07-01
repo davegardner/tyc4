@@ -11,6 +11,6 @@ eleventyNavigation:
 | asante      | thanks             |
 | asante sana | thankyou very much |
 | karibou     | welcome            |
-| poa         | ...                |
+| poa         | cool             |
 | habari      | what's the news    |
 | nzuri      | fine   |
