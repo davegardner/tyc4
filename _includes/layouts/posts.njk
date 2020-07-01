@@ -1,6 +1,8 @@
 ---
 layout: layouts/base.njk
-permalink: /posts/
 ---
+
+{{ content | safe }}
+
 {% set postslist=collections.posts %}
 {% include "postslist.njk" %}

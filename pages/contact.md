@@ -4,7 +4,7 @@ title: Contact Us
 permalink: /contact/
 eleventyNavigation:
     key: Contact Us
-    order: 2
+    order: 3
 ---
 
 Send us a letter.
