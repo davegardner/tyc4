@@ -1,6 +1,7 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('images')
   eleventyConfig.addPassthroughCopy('admin')
+  eleventyConfig.addPassthroughCopy('css')
 
   const {
     DateTime
@@ -33,6 +34,8 @@ module.exports = function (eleventyConfig) {
     return array.slice(0, n);
   });
 
+  const pluginSass = require("eleventy-plugin-sass");
+  eleventyConfig.addPlugin(pluginSass);
 
 };
 

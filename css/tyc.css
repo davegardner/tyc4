@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 35rem){
+    main {
+        display: flex;
+    }    
+}
+
+main, header, article, aside, footer, .hero {
+    margin: 0;
+    padding: 0.2rem .5rem;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+
+body {
+    background: #000000;
+}
+header {
+    background: #03a9f4;
+}
+.hero {
+    background: #d22b1f;
+}
+article {
+    background: #129a22;
+    flex: 1 1 100%;
+}
+aside {
+    border: 1px solid #000000;
+    background: #673ab7;
+    flex: 0 1 30%;
+}
+footer {
+    border: 1px solid #000000;
+    background: #616161;
+}
+

@@ -1,16 +1,31 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width"/>
     <title>Eleventy + Netlify CMS from scratch</title>
+    <link href="css/tyc.css" rel="stylesheet">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
 
   <body>
     <header>
-      {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}</header>
-    <h1>
-      Tanga Yacht Club
-    </h1>
-    {{ content | safe }}
+      <div class="hero">
+        <h1>Tanga Yacht Club</h1>
+      </div>
+    </header>
+
+    <main>
+      {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+      <article>
+        {{ content | safe }}
+      </article>
+      <aside>
+        <p>This is an important aside.</p>
+      </aside>
+    </main>
+
+    <footer>
+        Footer
+    </footer>
 
     {# The following script supports Netlify CMS #}
     <script>
