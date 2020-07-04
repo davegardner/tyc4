@@ -16,6 +16,7 @@ collections:
       - {label: "Date", name: "date", widget: "date", default: ""}
       - {label: "Post Body", name: "body", widget: "markdown"}
       - {label: "Featured Image", name: "featuredImage", widget: "image"}
+      - {label: "Tags", name: "tags", widget: "tags"}
  - name: "pages"        #The name of the collection and should match our pages.json file's tag
    label: "Pages"       #The name of the collection on the CMS itself
    folder: "pages"      #The folder that our blog posts will be loaded from and saved to
