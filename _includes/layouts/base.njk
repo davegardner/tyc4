@@ -11,12 +11,17 @@
       <div class="hero">
         <h1>Tanga Yacht Club</h1>
       </div>
+      <nav>
+        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+      </nav>
     </header>
 
     <main>
-      {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+
       <article>
-        {{ content | safe }}
+        <div class="content">
+          {{ content | safe }}
+        </div>
       </article>
       <aside>
         <p>This is an important aside.</p>
