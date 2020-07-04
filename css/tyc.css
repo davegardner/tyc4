@@ -26,10 +26,25 @@ header {
 .hero {
     background: #d22b1f;
 }
+
+nav{
+    flex: 1 1 20%;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
 article {
     background: #129a22;
     flex: 1 1 100%;
 }
+
+.content{
+    max-width: 35rem;
+}
+
 aside {
     border: 1px solid #000000;
     background: #673ab7;
