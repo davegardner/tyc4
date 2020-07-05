@@ -2,27 +2,48 @@
 layout: layouts/base.njk
 ---
 {% if eleventy_env.environment != "local" %}
-<a href="https://app.netlify.com/sites/wizardly-mccarthy-41e2cd/deploys"><img src="https://api.netlify.com/api/v1/badges/eff71616-60a3-4b90-9c29-1de21302443d/deploy-status"/></a>
+  <a href="https://app.netlify.com/sites/wizardly-mccarthy-41e2cd/deploys"><img src="https://api.netlify.com/api/v1/badges/eff71616-60a3-4b90-9c29-1de21302443d/deploy-status"/></a>
 {% endif %}
 
-<h1>{{ title }}</h1>
+<header>
+  <div class="hero">
+    <h1>Tanga Yacht Club</h1>
+  </div>
+  <nav>
+    {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+  </nav>
+</header>
 
-{{ content | safe }}
+<main >
+  <article>
+    <div class="content">
+      {{ content | safe }}
+    </div>
+  </article>
+  <aside>
+    <p>This is an important aside.</p>
+  </aside>
+</main>
 
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistCounter = collections.posts | length %}
 
 <ol reversed class="postlist" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
-{% for post in postslist | reverse %}
-  <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-    <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-    <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-    {% for tag in post.data.tags %}
-      {%- if collections.tagList.indexOf(tag) != -1 -%}
-      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-      <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
-      {%- endif -%}
-    {% endfor %}
-  </li>
-{% endfor %}
+  {% for post in postslist | reverse %}
+    <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+      <a href="{{ post.url | url }}" class="postlist-link">
+        {% if post.data.title %}{{ post.data.title }}
+        {% else %}
+          <code>{{ post.url }}</code>
+        {% endif %}
+      </a>
+      <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+      {% for tag in post.data.tags %}
+        {%- if collections.tagList.indexOf(tag) != -1 -%}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+        {%- endif -%}
+      {% endfor %}
+    </li>
+  {% endfor %}
 </ol>

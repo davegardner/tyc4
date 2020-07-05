@@ -3,51 +3,37 @@
     <meta name="viewport" content="width=device-width"/>
     <title>Eleventy + Netlify CMS from scratch</title>
     <link href="/css/tyc.css" rel="stylesheet">
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {% if eleventy_env.environment != "local" %}
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {% endif %}
   </head>
 
   <body>
-    <header>
-      <div class="hero">
-        <h1>Tanga Yacht Club</h1>
-      </div>
-      <nav>
-        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
-      </nav>
-    </header>
-
-    <main>
-
-      <article>
-        <div class="content">
-          {{ content | safe }}
-        </div>
-      </article>
-      <aside>
-        <p>This is an important aside.</p>
-      </aside>
-    </main>
+  
+    {{ content | safe }}
 
     <footer>
         Footer
     </footer>
 
-    {# The following script supports Netlify CMS #}
-    <script>
-      if (window.netlifyIdentity) {
-        window
-          .netlifyIdentity
-          .on("init", user => {
-            if (!user) {
-              window
-                .netlifyIdentity
-                .on("login", () => {
-                  document.location.href = "/admin/";
-                });
-            }
-          });
-      }
-    </script>
+    {% if eleventy_env.environment != "local" %}
+      {# The following script supports Netlify CMS #}
+      <script>
+        if (window.netlifyIdentity) {
+          window
+            .netlifyIdentity
+            .on("init", user => {
+              if (!user) {
+                window
+                  .netlifyIdentity
+                  .on("login", () => {
+                    document.location.href = "/admin/";
+                  });
+              }
+            });
+        }
+      </script>
+    {% endif %}
   </body>
 
 </html>

@@ -1,72 +1,89 @@
-:root{
-    --break1: 35rem;
+:root {
+  --break1: 35rem;
+  --padding: 0.5rem;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
-@media screen and (min-width: 35rem){
-    main {
-        display: flex;
-    }    
+@media screen and (min-width: 35rem) {
+  main {
+    display: flex;
+  }
 }
 
-main, header, article, aside, footer, .hero {
-    margin: 0;
-    padding: 0;
-    border: 1px solid #000000;
-    color: #ffffff;
+main,
+header,
+article,
+aside,
+footer,
+.hero {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #000000;
+  color: #ffffff;
 }
-
 
 body {
-    background: #000000;
+  background: #000000;
 }
 header {
-    background: #03a9f4;
+  background: #03a9f4;
 }
 .hero {
-    background: #d22b1f;
-    padding: 0.5rem;
+  background: #d22b1f;
+  padding: var(--padding);
 }
 
-nav{
-    flex: 1 1 20%;
-    padding: 0.5rem;
+nav {
+  flex: 1 1 20%;
+  padding: var(--padding);
 }
 
-nav ul{
-    list-style: none;
-    padding: 0;
+nav ul {
+  list-style: none;
+  padding: 0;
 }
 
 article {
-    background: #129a22;
-    flex: 1 1 100%;
+  background: #129a22;
+  flex: 1 1 100%;
 }
 
-.content{
-    max-width: var(--break1);
+.content {
+  max-width: var(--break1);
 }
 
-.text{
-
-
+.content, aside, footer {
+  padding: var(--padding);
 }
 
-img{
+img {
+  width: 100%;
+}
+
+.post-splash{
     width: 100%;
+    height: auto;
 }
-
 aside {
-    border: 1px solid #000000;
-    background: #673ab7;
-    flex: 0 1 30%;
+  border: 1px solid #000000;
+  background: #673ab7;
+  flex: 0 1 30%;
 }
 footer {
-    border: 1px solid #000000;
-    background: #616161;
+  border: 1px solid #000000;
+  background: #616161;
 }
-
+.tag{
+    border: 1px solid #666666;
+    background-color: #afafaf;
+    box-shadow: 3px 3px 3px #666666;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 1rem;
+    color: #000000;
+}
