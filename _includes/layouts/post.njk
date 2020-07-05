@@ -1,7 +1,12 @@
 ---
 layout: layouts/base.njk
 ---
+<img src="{{ featuredImage | url }}" alt="{{ featuredImageTitle }}" ></img>
+
 <h2>{{ title }}</h2>
+
 <h3>{{ date | readableDate }}</h3>
-<img src="{{ featuredImage | url }}" alt="{{ featuredImage }}" width="100%"></img>
+{% for tag in tags %}
+[{{ tag }}] 
+{% endfor %}
 <p>{{ content | safe }}</p>
