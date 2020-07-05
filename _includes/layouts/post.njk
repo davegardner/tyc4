@@ -1,12 +1,32 @@
 ---
 layout: layouts/base.njk
 ---
-<img src="{{ featuredImage | url }}" alt="{{ featuredImageTitle }}" ></img>
+<header>
+    <h1>Tanga Yacht Club</h1>
+    <nav>
+        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+    </nav>
+</header>
 
-<h2>{{ title }}</h2>
+<img class="post-splash" src="{{ featuredImage | url }}" alt="{{ featuredImageTitle }}" ></img>
 
-<h3>{{ date | readableDate }}</h3>
-{% for tag in tags %}
-[{{ tag }}] 
-{% endfor %}
-<p>{{ content | safe }}</p>
+<main >
+    <article>
+        <div class="content">
+
+            <h2>{{ title }}</h2>
+
+            <h3>
+                {{ date | readableDate }}
+                {% for tag in tags %}
+                    <span class="tag">{{ tag }}</span>
+                {% endfor %}
+            </h3>
+            <p>{{ content | safe }}</p>
+
+        </div>
+    </article>
+    <aside>
+        <p>This is an important aside.</p>
+    </aside>
+</main>

@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+---
+
+<header>
+    <h1>Tanga Yacht Club</h1>
+    <nav>
+        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+    </nav>
+</header>
+<main >
+    <article>
+        <div class="content">
+            {{ content | safe }}
+        </div>
+    </article>
+    <aside>
+        <p>This is an important aside.</p>
+    </aside>
+</main>

@@ -1,5 +1,5 @@
 ---
-layout: layouts/posts.njk
+layout: layouts/page.njk
 permalink: /posts/
 title: Posts
 eleventyNavigation:
