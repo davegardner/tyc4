@@ -1,3 +1,7 @@
+:root{
+    --break1: 35rem;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -11,7 +15,7 @@ html, body {
 
 main, header, article, aside, footer, .hero {
     margin: 0;
-    padding: 0.2rem .5rem;
+    padding: 0;
     border: 1px solid #000000;
     color: #ffffff;
 }
@@ -25,10 +29,12 @@ header {
 }
 .hero {
     background: #d22b1f;
+    padding: 0.5rem;
 }
 
 nav{
     flex: 1 1 20%;
+    padding: 0.5rem;
 }
 
 nav ul{
@@ -42,7 +48,16 @@ article {
 }
 
 .content{
-    max-width: 35rem;
+    max-width: var(--break1);
+}
+
+.text{
+
+
+}
+
+img{
+    width: 100%;
 }
 
 aside {
