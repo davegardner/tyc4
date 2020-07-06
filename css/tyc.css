@@ -49,6 +49,7 @@ body {
 
 header {
   background: #03a9f4;
+  padding: var(--padding);
 }
 
 .hero {
@@ -123,23 +124,12 @@ h1, h2, h3, h4, h5, h6{
   font-family: var(--heading-font);
 }
 
-header h1{
-  margin-left: 1rem;
-}
 
 /*
  * Made by Erik Terwan
  * 24th of November 2015
  * MIT License
   */
- /* body
- {
-   margin: 0;
-   padding: 0;
-   background: var(--nav-back-color);
-   color: var(--nav-text-color);
-   font-family: var(--heading-font);
- } */
  
  #menuToggle
  {
