@@ -30,9 +30,11 @@ footer,
 body {
   background: #000000;
 }
+
 header {
   background: #03a9f4;
 }
+
 .hero {
   background: #d22b1f;
   padding: var(--padding);
@@ -53,6 +55,11 @@ article {
   flex: 1 1 100%;
 }
 
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .content {
   max-width: var(--break1);
 }
@@ -71,21 +78,24 @@ img {
 }
 
 .netlify-status{
-    width: 50px;
+    width: 100px;
 }
+
 aside {
   border: 1px solid #000000;
   background: #673ab7;
   flex: 0 1 30%;
 }
+
 footer {
   border: 1px solid #000000;
   background: #616161;
 }
+
 .tag{
     border: 1px solid #666666;
     background-color: #afafaf;
-    box-shadow: 3px 3px 3px #666666;
+    box-shadow: 3px 3px 3px #66666666;
     border-radius: 3px;
     padding: 3px;
     margin: 1rem;

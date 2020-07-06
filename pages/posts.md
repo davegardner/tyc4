@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: layouts/posts.njk
 permalink: /posts/
 title: Posts
 eleventyNavigation:
@@ -7,4 +7,4 @@ eleventyNavigation:
     order: 2
 ---
 
-Herewith, a collection of posts for your entertainment and information:
+All the posts:
