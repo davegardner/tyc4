@@ -1,8 +1,10 @@
 ---
-layout: layouts/base.njk
+layout: layouts/page.njk
 ---
 
 {{ content | safe }}
 
-{% set postslist=collections.posts %}
+<p>All posts from posts.njk:</p>
+
+{% set postslist = collections.posts %}
 {% include "postslist.njk" %}
