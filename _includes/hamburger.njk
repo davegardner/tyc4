@@ -1,0 +1,9 @@
+<nav>
+    <div id="menuToggle">
+        <input type="checkbox"/>
+        <span></span>
+        <span></span>
+        <span></span>
+        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({listClass: "nav-list-class"}) | safe }}
+    </div>
+</nav>
