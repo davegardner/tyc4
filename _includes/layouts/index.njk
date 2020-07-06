@@ -10,9 +10,9 @@ layout: layouts/base.njk
       {% endif %}
     </h1>
   </div>
-  <nav>
-    {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
-  </nav>
+
+  {% include "hamburger.njk" %}
+
 </header>
 
 <main >

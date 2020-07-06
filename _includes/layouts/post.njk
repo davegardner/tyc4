@@ -2,10 +2,12 @@
 layout: layouts/base.njk
 ---
 <header>
-    <h1><a href="/">Tanga Yacht Club</a></h1>
-    <nav>
-        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
-    </nav>
+    <h1>
+        <a href="/">Tanga Yacht Club</a>
+    </h1>
+
+    {% include "hamburger.njk" %}
+
 </header>
 
 <img class="post-splash" src="{{ featuredImage | url }}" alt="{{ featuredImageTitle }}" ></img>
