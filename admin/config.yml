@@ -5,7 +5,7 @@ media_folder: "_site/images/uploads"
 public_folder: "/images/uploads"
 collections:
  - name: "posts"        #The name of the collection and should match our posts.json file's tag
-   label: "Posts"       #The name of the collection on the CMS itself
+   label: "News"       #The name of the collection on the CMS itself
    folder: "posts"      #The folder that our blog posts will be loaded from and saved to
    create: true             #Tells the CMS that new posts can be created
    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"  #this sets the URL for the post
@@ -14,7 +14,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Date", name: "date", widget: "date", default: ""}
-      - {label: "Post Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured Image", name: "featuredImage", widget: "image"}
       - {label: "Featured Image Title", name: "featuredImageTitle", widget: "string"}
       - {label: "Tags", name: "tags", widget: "string"} # DAG: todo: make this a reference widget.
