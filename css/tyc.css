@@ -19,6 +19,10 @@
   --text-font: Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
+html{
+  font-size: calc(1rem + 0.5vw);
+}
+
 html,
 body {
   margin: 0;
@@ -39,7 +43,6 @@ footer,
 .hero {
   margin: 0;
   padding: 0;
-  border: 1px solid #000000;
   color: #ffffff;
 }
 
@@ -49,12 +52,25 @@ body {
 
 header {
   background: #03a9f4;
-  padding: var(--padding);
+  /* padding: var(--padding); */
 }
 
 .hero {
   background: #d22b1f;
-  padding: var(--padding);
+  position: relative;
+  text-align: center;
+}
+
+.hero img{
+  width: 100%;
+}
+
+.hero h1{
+  text-shadow: 5px 5px 10px var(--dark-color);
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 nav {
