@@ -2,7 +2,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('images')
   eleventyConfig.addPassthroughCopy('admin')
   eleventyConfig.addPassthroughCopy('css')
-
+  eleventyConfig.addPassthroughCopy({ "images/favicons": "/" })
+  
   let markdownIt = require("markdown-it");
   let options = {
     html: true,
