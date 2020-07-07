@@ -1,10 +1,10 @@
 ---
 layout: layouts/posts.njk
 permalink: /posts/
-title: Posts
+title: News
 eleventyNavigation:
-    key: Posts
+    key: News
     order: 2
 ---
 
-All the posts:
+All the news that's fit to print:

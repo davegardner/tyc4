@@ -19,6 +19,7 @@ layout: layouts/base.njk
   <article>
     <div class="wrapper">
       <div class="content">
+      
         {{ content | safe }}
 
         {% set postslist = collections.posts | head(-2) %}
@@ -49,7 +50,6 @@ layout: layouts/base.njk
     </div>
   </article>
   <aside>
-    <p>This is an important aside.</p>
     {% include "aside.njk" %}
   </aside>
 </main>

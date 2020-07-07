@@ -8,9 +8,8 @@ eleventyNavigation:
 ---
 
 
-# Karibu! from home.md
+# Karibu!
 
-Welcome to TYC (home.md)
+Welcome to TYC.
 
-Here's some recent posts: (home.md)
 

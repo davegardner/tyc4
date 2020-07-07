@@ -124,7 +124,10 @@ h1, h2, h3, h4, h5, h6{
   font-family: var(--heading-font);
 }
 
-
+footer{
+  font-family: var(--heading-font);
+  font-size: smaller;
+}
 /*
  * Made by Erik Terwan
  * 24th of November 2015
