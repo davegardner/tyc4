@@ -1,9 +1,17 @@
 <nav>
     <div id="menuToggle">
-        <input type="checkbox"/>
+        <input id="hamburgerButton" type="checkbox"/>
         <span></span>
         <span></span>
         <span></span>
-        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({listClass: "nav-list-class"}) | safe }}
+        {# {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({listClass: "nav-list-class"}) | safe }} #}
+        {% set navPages = collections.all | eleventyNavigation %}
+        <ul id="menu">
+            {%- for entry in navPages %}
+                <li{% if entry.url == page.url %} class="my-active-class"{% endif %}>
+                    <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+                </li>
+            {%- endfor %}
+        </ul>
     </div>
 </nav>
