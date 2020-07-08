@@ -22,7 +22,7 @@
 }
 
 html{
-  font-size: calc(1rem + 0.5vw);
+  /* font-size: calc(1rem + 0.5vw); */
 }
 
 html,
@@ -184,8 +184,8 @@ footer{
  #menuToggle input
  {
    display: block;
-   width: 2rem;
-   height: 2rem;
+   width: 40px;
+   height: 32px;
    position: absolute;
    top: -7px;
    left: -10px;
@@ -204,9 +204,9 @@ footer{
  #menuToggle span
  {
    display: block;
-   width: 1.65rem;
+   width: 31px;
    height: 4px;
-   margin-bottom: .3rem;
+   margin-bottom: 5px;
    position: relative;
    
    background: var(--nav-back-color);
@@ -238,7 +238,7 @@ footer{
  #menuToggle input:checked ~ span
  {
    opacity: 1;
-   transform: rotate(45deg) translate(0px, 0px);
+   transform: rotate(45deg) translate(1px, -2px);
    background: var(--nav-text-color);
  }
  
@@ -256,7 +256,7 @@ footer{
   */
  #menuToggle input:checked ~ span:nth-last-child(2)
  {
-   transform: rotate(-45deg) translate(0, 0px);
+   transform: rotate(-45deg) translate(0px, 2px);
  }
  
  /*
@@ -266,10 +266,12 @@ footer{
  #menu
  {
    position: absolute;
-   width: 17rem;
+   width: 10rem;
    margin: -4rem 0 0 -2rem;
    padding: 2rem;
    padding-top: 5rem;
+   box-shadow: .2rem .2rem .5rem var(--nav-text-color);
+   border-radius: 3px;
    
    font-family: var(--heading-font);
    background: var(--nav-back-color);

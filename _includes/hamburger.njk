@@ -4,7 +4,10 @@
         <span></span>
         <span></span>
         <span></span>
+        {# This makes a multilevel menu #}
         {# {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({listClass: "nav-list-class"}) | safe }} #}
+        
+        {# This makes a single level meny, but provides control over layout #}
         {% set navPages = collections.all | eleventyNavigation %}
         <ul id="menu">
             {%- for entry in navPages %}
