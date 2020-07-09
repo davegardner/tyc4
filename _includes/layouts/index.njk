@@ -12,12 +12,13 @@ layout: layouts/base.njk
     <img src="/images/uploads/_DAG6862.jpg" alt="" >
   </div>
 
+    {% include "hamburger.njk" %}
+
 </header>
 
 <main >
   <article>
 
-    {% include "hamburger.njk" %}
     
     <div class="wrapper">
 
@@ -53,6 +54,6 @@ layout: layouts/base.njk
     </div>
   </article>
   <aside>
-    {% include "aside.njk" %}
+    {% markdown "/partials/aside.md" %}
   </aside>
 </main>

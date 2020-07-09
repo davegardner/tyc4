@@ -4,14 +4,17 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('css') // todo: minify and inline
   eleventyConfig.addPassthroughCopy('js') // todo: minify and inline
   eleventyConfig.addPassthroughCopy({ "images/favicons": "/" })
-  
+
   let markdownIt = require("markdown-it");
-  let options = {
+  let mdOptions = {
     html: true,
     breaks: true,
     linkify: true
   };
-  eleventyConfig.setLibrary("md", markdownIt(options));
+  eleventyConfig.setLibrary("md", markdownIt(mdOptions));
+
+  const markdownShortcode = require("eleventy-plugin-markdown-shortcode");
+  eleventyConfig.addPlugin(markdownShortcode, mdOptions);
 
   const {
     DateTime
