@@ -29,6 +29,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 35rem) {
@@ -80,6 +81,7 @@ header h1{
 
 nav {
   flex: 1 1 20%;
+  overflow: hidden;
 }
 
 nav ul {
@@ -263,7 +265,7 @@ footer{
   */
  #menu
  {
-   position: absolute;
+   position: fixed;
    width: 15rem;
    margin: -4rem 0 0 0;
    padding: 2rem;
