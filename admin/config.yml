@@ -26,8 +26,9 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Page Body", name: "body", widget: "markdown"}
- - name: "partials"       
+ - name: "partials"        # Name of collection
    label: "Partials"       #The name of the collection on the CMS itself
    folder: "partials"      #The folder that our partials will be loaded from and saved to
    create: false             #Tells the CMS that new partials cannot be created
+   fields:
       - {label: "Page Body", name: "body", widget: "markdown"}
