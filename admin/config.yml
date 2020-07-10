@@ -27,3 +27,8 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Page Body", name: "body", widget: "markdown"}
+ - name: "partials"        #The name of the collection and should match our pages.json file's tag
+   label: "Partials"       #The name of the collection on the CMS itself
+   folder: "partials"      #The folder that our blog posts will be loaded from and saved to
+   create: false             #Tells the CMS that new pages can be created
+      - {label: "Page Body", name: "body", widget: "markdown"}

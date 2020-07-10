@@ -14,7 +14,7 @@
     {{ content | safe }}
 
     <footer>
-      <p>&copy; 2020 Copyright Tanga Yacht Club, Tanga, Tanzania</p>
+    {% markdown "/partials/footer.md" %}
     </footer>
 
     {% if eleventy_env.environment != "local" %}
