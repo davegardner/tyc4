@@ -14,9 +14,9 @@
   --shadow-color: #ffffff;
   --ground-color: #00000000; /* transparent */
   --heading-color: #ffffff;
-  --article-background: #f3f3e9;
-  --aside-background: #e0e0c8;
-  --footer-background: #a8a87d;
+  --article-background: #f3f0e9;
+  --aside-background: #ceae5e;
+  --footer-background: #be9a3f;
 
   /* fonts */
   --heading-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -39,8 +39,8 @@ body {
 @media screen and (min-width: 35rem) {
   main {
     display: flex;
-  align-items: stretch;
-}
+    align-items: stretch;
+  }
 }
 
 main,
@@ -52,7 +52,8 @@ footer,
   margin: 0;
   padding: 0;
 }
-aside, footer{
+aside,
+footer {
   padding: var(--rhythm) 0 var(--rhythm) 0;
 }
 
@@ -107,7 +108,7 @@ article {
 }
 .content {
   max-width: var(--break1);
-  padding-top: .7em;
+  padding-top: 0.7em;
 }
 
 .content,
@@ -354,6 +355,6 @@ ul {
   margin-bottom: var(--rhythm);
 }
 
-li{
+li {
   margin-bottom: calc(var(--rhythm) / 2);
 }
