@@ -18,7 +18,6 @@ layout: layouts/base.njk
 
 <main >
   <article>
-
     
     <div class="wrapper">
 
@@ -29,7 +28,7 @@ layout: layouts/base.njk
         {% set postslist = collections.posts | head(-2) %}
         {% set postslistCounter = collections.posts | length %}
 
-        <p>There are {{ postslistCounter }} posts. Here are the 2 most recent:</p>
+        <p>There are {{ postslistCounter }} news items. Here are the 2 most recent:</p>
 
         <ul class="postlist" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
           {% for post in postslist | reverse %}

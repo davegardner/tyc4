@@ -2,7 +2,7 @@
   /* layout */
   --break1: 30rem;
   --horizontal-padding: 1.5rem;
-  --rythm: 0.5rem;
+  --rhythm: 1.4em;
 
   /* colors */
   --text-color: #505050;
@@ -14,17 +14,18 @@
   --shadow-color: #ffffff;
   --ground-color: #00000000; /* transparent */
   --heading-color: #ffffff;
-  --article-background: #129a22;
-  --aside-background: #673ab7;
-  --footer-background: #616161;
-  
+  --article-background: #f3f3e9;
+  --aside-background: #e0e0c8;
+  --footer-background: #a8a87d;
+
   /* fonts */
-  --heading-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --heading-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   --text-font: Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-html{
-  font-size: calc(1rem + 0.5vw);
+html {
+  font-size: calc(100% + 1vw);
 }
 
 html,
@@ -32,12 +33,14 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  line-height: var(--rhythm);
 }
 
 @media screen and (min-width: 35rem) {
   main {
     display: flex;
-  }
+  align-items: stretch;
+}
 }
 
 main,
@@ -49,18 +52,21 @@ footer,
   margin: 0;
   padding: 0;
 }
+aside, footer{
+  padding: var(--rhythm) 0 var(--rhythm) 0;
+}
 
 header {
   border: 0;
 }
 
-header h1{
-  padding: var(--rythm);
+header h1 {
   font-size: smaller;
   margin-top: 0.4rem;
+  margin-left: 1rem;
 }
 
-header h1 a{
+header h1 a {
   text-decoration: none;
   color: var(--highlight-color);
 }
@@ -70,11 +76,11 @@ header h1 a{
   text-align: center;
 }
 
-.hero img{
+.hero img {
   width: 100%;
 }
 
-.hero h1{
+.hero h1 {
   color: var(--highlight-color);
   font-size: 7vw;
   text-shadow: 0px 0px 8px var(--shadow-color);
@@ -94,30 +100,34 @@ article {
   flex: 1 1 100%;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 }
 .content {
   max-width: var(--break1);
+  padding-top: .7em;
 }
 
-.content, aside, footer {
-  padding: 0 var(--horizontal-padding);
+.content,
+aside,
+footer {
+  padding-left: var(--horizontal-padding);
+  padding-right: var(--horizontal-padding);
 }
 
 img {
   width: 100%;
 }
 
-.post-splash{
-    width: 100%;
-    height: auto;
+.post-splash {
+  width: 100%;
+  height: auto;
 }
 
-img.netlify-status{
-    width: 200px;
+img.netlify-status {
+  width: 200px;
 }
 
 aside {
@@ -125,23 +135,53 @@ aside {
   flex: 0 1 30%;
 }
 
-.tag{
-    border: 1px solid #666666;
-    background-color: #afafaf;
-    box-shadow: 3px 3px 3px #66666666;
-    border-radius: 3px;
-    padding: 3px;
-    margin: 1rem;
-    color: #000000;
+.tag {
+  border: 1px solid #666666;
+  background-color: #afafaf;
+  box-shadow: 3px 3px 3px #66666666;
+  border-radius: 3px;
+  padding: 1px 3px 1px 3px;
+  margin: 0 1em 0 0;
+  color: #000000;
 }
 
 /* Headings */
-
-h1, h2, h3, h4, h5, h6{
-  font-family: var(--heading-font);
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.2em;
+}
+h4 {
+  font-size: 1.1em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: 1em;
 }
 
-footer{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  font-weight: normal;
+  line-height: var(--rhythm); /* relative to font size */
+  margin: 0.5em 0 0.5em 0; /* relative to base font-size */
+}
+
+p {
+  margin: 0 0 var(--rhythm) 0; /* relative to base font-size */
+}
+
+footer {
   font-family: var(--heading-font);
   font-size: smaller;
   background: var(--footer-background);
@@ -151,148 +191,169 @@ footer{
  * 24th of November 2015
  * MIT License
   */
- 
- #menuToggle
- {
-   display: block;
-   position: absolute;
-   top: 0.9rem;
-   right: 1rem;
-   
-   z-index: 1;
-   
-   -webkit-user-select: none;
-   user-select: none;
- }
- 
- #menuToggle a
- {
-   text-decoration: none;
-   color: var(--nav-text-color);
-   
-   transition: color 0.3s ease;
- }
- 
- #menuToggle a:hover
- {
-   color: var(--nav-hamburger-color);
- }
- 
- 
- #menuToggle input
- {
-   display: block;
-   width: 40px;
-   height: 32px;
-   position: absolute;
-   top: -7px;
-   left: -10px;
-   
-   cursor: pointer;
-   
-   opacity: 0; /* hide this */
-   z-index: 2; /* and place it over the hamburger */
-   
-   -webkit-touch-callout: none;
- }
- 
- /*
+
+#menuToggle {
+  display: block;
+  position: absolute;
+  top: 0.9rem;
+  right: 1rem;
+
+  z-index: 1;
+
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a {
+  text-decoration: none;
+  color: var(--nav-text-color);
+
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover {
+  color: var(--nav-hamburger-color);
+}
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -10px;
+
+  cursor: pointer;
+
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+
+  -webkit-touch-callout: none;
+}
+
+/*
   * Just a quick hamburger
   */
- #menuToggle span
- {
-   display: block;
-   width: 33px;
-   height: 4px;
-   margin-bottom: 5px;
-   position: relative;
-   box-shadow: .2rem .2rem .3rem var(--dark-color);
-   background: var(--nav-hamburger-color);
-   border-radius: 3px;
-   z-index: 1;
-   transform-origin: 4px 0px;
-   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-               opacity 0.55s ease;
- }
- 
- #menuToggle span:first-child
- {
-   transform-origin: 0% 0%;
- }
- 
- #menuToggle span:nth-last-child(2)
- {
-   transform-origin: 0% 100%;
- }
- 
- /* 
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  box-shadow: 0.2rem 0.2rem 0.3rem var(--dark-color);
+  background: var(--nav-hamburger-color);
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+/* 
   * Transform all the slices of hamburger
   * into a crossmark.
   */
- #menuToggle input:checked ~ span
- {
-   opacity: 1;
-   transform: rotate(45deg) translate(1px, 0px);
-   background: var(--nav-text-color);
-   box-shadow: none;
- }
- 
- /*
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(1px, 0px);
+  background: var(--nav-text-color);
+  box-shadow: none;
+}
+
+/*
   * But let's hide the middle one.
   */
- #menuToggle input:checked ~ span:nth-last-child(3)
- {
-   opacity: 0;
-   transform: rotate(0deg) scale(0.2, 0.2);
-   box-shadow: none;
- }
- 
- /*
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+  box-shadow: none;
+}
+
+/*
   * Ohyeah and the last one should go the other direction
   */
- #menuToggle input:checked ~ span:nth-last-child(2)
- {
-   transform: rotate(-45deg) translate(0px, 2px);
-   box-shadow: none;
- }
- 
- /*
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0px, 2px);
+  box-shadow: none;
+}
+
+/*
   * Make this *fixed* position at the top right of the screen.
   * Absolute position will not hide the menu when it is slid off the page.
   */
- #menu
- {
-   position: fixed;
-   width: 15rem;
-   margin: -4rem 0 0 0;
-   padding: 2rem;
-   padding-top: 5rem;
-   box-shadow: .2rem .2rem .5rem var(--nav-text-color);
-   border-radius: 3px;
-   right: -4rem;
+#menu {
+  position: fixed;
+  width: 15rem;
+  margin: -4rem 0 0 0;
+  padding: 2rem;
+  padding-top: 5rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem var(--nav-text-color);
+  border-radius: 3px;
+  right: -4rem;
 
-   font-family: var(--heading-font);
-   background: var(--nav-back-color);
-   list-style-type: none;
-   -webkit-font-smoothing: antialiased;
-   /* to stop flickering of text in safari */
-   
-   transform-origin: 0% 0%;
-   transform: translate(100%, 0);
-   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
- }
- 
- #menu li
- {
-   padding: .8rem 0;
-   font-size: 1rem;
- }
- 
- /*
+  font-family: var(--heading-font);
+  background: var(--nav-back-color);
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+#menu li {
+  padding: 0.8rem 0;
+  font-size: 1rem;
+}
+
+/*
   * And let's slide it in from the left
   */
- #menuToggle input:checked ~ ul
- {
-   transform: none;
- }
+#menuToggle input:checked ~ ul {
+  transform: none;
+}
+
+/* Rhythm grid */
+/* body {
+  position: relative;
+}
+body:active:after {
+  display: none;
+}
+body:after {
+  background: linear-gradient(
+    to bottom,
+    rgba(200, 225, 255, 0.6) 1px,
+    transparent 1px
+  );
+  background-size: 10px var(--rhythm);
+  bottom: 0;
+  margin-top: 0px;
+  content: "";
+  display: block;
+  height: auto;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+  z-index: 9999;
+} */
+
+ul {
+  margin-bottom: var(--rhythm);
+}
+
+li{
+  margin-bottom: calc(var(--rhythm) / 2);
+}

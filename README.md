@@ -9,5 +9,15 @@ To log in: `tycTyc!2020`
 
 - Set up a new Netlify account for TYC
 - CSS
+    - vertical rhythm
+    - images
 - home page hero
+- content:
+    - text
+    - images
+- map showing TYC location for anchoring
+- map showing Tanga town and important places with pins
+
+- 
+
 

@@ -14,19 +14,15 @@ layout: layouts/base.njk
 
 <main >
     <article>
-
         <div class="wrapper">
             <div class="content">
-
                 <h2>{{ title }}</h2>
 
-                <h3>
-                    {{ date | readableDate }}
-                    {% for tag in tags %}
-                        <span class="tag">{{ tag }}</span>
-                    {% endfor %}
-                </h3>
-                <p>{{ content | safe }}</p>
+                <h3>{{ date | readableDate }}</h3>
+
+                <p>{% for tag in tags %}<span class="tag">{{ tag }}</span>{% endfor %}</p>
+
+                {{ content | safe }}
 
             </div>
         </div>
