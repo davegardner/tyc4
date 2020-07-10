@@ -4,6 +4,8 @@ title: Fourth of July
 description: The band played on...
 date: 2020-07-03T21:00:00.000Z
 featuredImage: /images/uploads/_dag6857.jpg
+featuredImageTitle: Long and boring
+tags: Tanga
 ---
 
 Not one, not two, but three brass bands played up and down the street outside the yacht clud. All day it went on. Was it really a 4th July celebration? Am I in the right country?  Well, yes and no. It was a local wedding! Daz rushed upstairs to get a pic but the truck had passed before he got to the bottom of the stairs. He turned and started coming back just as a *second* truck arrived. He made a brief attempt to catch it before realizing he wasn't going to make that one either and again turned back to us just as I started to hear a *third* truck approaching. He wouldn't have made that either as he was standing in the same place he gave up when trying to catch the first truck. The lesson is: don't dither at a big wedding &ndash; if at first you do not succeed try, try again.
