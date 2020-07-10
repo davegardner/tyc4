@@ -31,4 +31,5 @@ collections:
    folder: "partials"      #The folder that our partials will be loaded from and saved to
    create: false             #Tells the CMS that new partials cannot be created
    fields:
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Page Body", name: "body", widget: "markdown"}
