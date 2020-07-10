@@ -1,39 +1,44 @@
 ---
 layout: layouts/page.njk
-title: About
+title: About Tanga Yacht Club
 permalink: /about/
 eleventyNavigation:
-  key: About
+  key: About Us
   order: 4
 ---
-Tanga Yacht Club is incorporated in Tanzania.
 
-Board Members as at 1 July 2020:
+TYC is a place for families and yachties to spend the day relaxing by the ocean, taking dips in the water.  It’s beautiful, and at dusk the inky blues of the sea meet the pinks and yellows of the sky to create one heck of a sundowner backdrop.  You have to see it to believe it. 
 
-1. Arthur
+### Facilities
 
-1. Mebs
+As a member of the yacht club you anchor for free (even leaving your boat here for months at a time if you wish), you’ll receive fresh, clean drinking water with which to fill your tanks and the showers are excellent.  There’s also free wifi in the bar and onsite facilities for doing laundry (by hand) and you can use their P.O box address for deliveries (address on contacts page).  
 
-1. Eric
+The boatyard beneath the club has a workshop with electricity where you can carry out maintenance tasks, and there’s a team of guys who can help with your bigger projects.  The boatyard also has some moorings available which you may be able to rent, Asana will be able to advise once you arrive.  There’s a pulley system that works as a secure dinghy dock.
 
-1. Any number of cats and a few monkeys
+All of the staff here are absolute diamonds.  From the commodore to the committee members to the bar staff, they all go out of their way to help out yachties, show them the sights and make sure they have an unforgettable time in Tanga.  The piece to resistance, however, is the beer at 2,500 Tsh per large 500 ml bottle (roughly $1 USD), and yes, takeaways are available.  
 
-Tanga Yacht Club was founded on 1st May 1944 when a number of local businessmen and government officials formed a limited company. The certificate of incorporation was issued by the registrar of companies in Dar es Salaam on 7th June 1944. Founder members of the club in that time were G. Tirant, A.R. Pain, R.C. Jerrard, W. Bain, A.A. Phibbs, P. Roach and D. McQueen, all of them, as usual in that time, of male origin. 
+### Types of membership, costs and application
 
-The first two stated objectives of the company were: 
+The yacht club is inexpensive to join and loves to welcome new members.  A temporary membership costs 60,000 Tsh / $25 USD per month and requires a 100,000 Tsh / $43 USD deposit which naturally you get back at the end.  You pay the deposit directly into the bank which is a painless process. 
 
-To promote boating, yachting and sailing at Tanga and the vicinity of Tanga. 
+There’s a form to fill in which asks for your address and passport numbers and requires two signatures from a member of the committee which is also easy to arrange.  Just ask Mercy (the office manager) for a form.  As a temporary member you receive a book with a unique bar number that you top up with cash (either at the bank or by card at the bar) and then all of your drinks come off from there.  When you run low on funds you just top up again. 
 
-For this purpose to acquire or take over the effect and liabilities of the present unincorporated club known as Tanga Yacht Club. 
+If you are only staying for a short period you’ll want to skip that and pay the weekly fee of 40,000 Tsh / $17 USD (which although more, is still inexpensive for what you get) and buy your drinks with coupons. 
 
-This unincorporated club consisted of a small number of local people one of whom was G.W. Hatchell, a magistrate, who became the clubs first commodore in 1941. But the club was really started before 1941 by Emil Hartmann, a local building contractor, who arrived in Tanga about 1936. As far as it is known Emil Hartmann owned the first boat to be moored at the club. It was named “Lorraine” after his original home. Hartmann and Hatchell were friends and often went fishing together. He also wrote an article on fishing around Tanga and the adjacent coast, which was published in “Tanganyika Notes and Records” in 1954. Other members at that time were Eldred Hitchkock and Abdulla Karimjee, both of them were later knighted for their services to the country and the sisal industry. Alee le Maitre, also a member at that time, and G.W. Hatchell were awarded the OBE for similar services. 
+### Opening hours of bar and restaurant
 
-The club premises at that time consisted of a clearing carved from the cliff to the left of the present steps as one enters the club. A small club house was built on what is now the paved area. When the new club was formed in 1944 many new members were attracted and more boats, both power and sail began to appear. As the time went on and the club prospered and could afford it, the present structures were built up. The paved area was done by courtesy of Amboni Estates. 
+Opening hours are daily from 1100 (ish) to 1430 (ish) and then again from 1730 to 2200 (ish) except on Fridays, Saturdays and Sundays when it’s open all day.
 
-A water color painting showing the club in 1949 was done by Mrs. A. Budge and is still hanging in the bar. The polished paneling behind the bar was a gift of a member who spent more time at the bar than he did at his job. He said he was tired of staring at a whitewashed wall. The oil painting of a sailing race behind the bar was done by Mrs. Joan Wadhan, wife of a member. 
+The delicious on-site restaurant has the same opening hours although is currently closed on Mondays, Tuesdays and Thursdays. 
 
-Organized sailing was started about 1944, when members donated various trophies to be competed for. Reciprocal sailing matches between Tanga, Mombasa and Dar es Salaam became annual events. None appear to have occurred since 1979. A number of Osprey class dinghies were made available for members to purchase during the 1950’s and good use was made of them. The dinghies changed hands many times as members left the club. Not many of them are serviceable today. Since 1983 there do not appear to have been any organized sailing apart from windsurfers and catamarans. 
+### The restaurant
 
-Fishing became very popular during the 1970’s and Ian Moncrieff, a former port pilot, arranged for the club to be accepted as a member of the International Game Fishing Association and the Game Fish Union of Africa. Subsequently, some club member's catches appeared in the annual records of the IGFA and until today the club still holds two records, one for a garfish of 4.1kg, caught in November 1969 by Alois Zorten on a 37 kg line and the other for a Giant Trevally, locally known as Karautesi of 54.8kg, caught in October 1970 by Mrs. Polly Mosgard on a 24kg line. Fish were much more plentiful in those days and huge catches were made almost every weekend. A local merchant bought the catches from members at 50 cents per pound. On one occasion he had to take three trips with his truck to remove the catch. Most of the profit was spent by members over the bar that same evening. The biggest fish, ever brought in by a club member was a Black Marlin of 113.25kg caught by Attilie Torriani in December 1974 on a 37 kg line. Not so many fish are brought in these days, but that is no reflection on the skill and patience of those few fishermen who still keep trying as recent photographs still show.
+It’s worth crossing the Indian Ocean just for (insert name’s) fish and chips.  There’s no tiny portion of something limp and soggy here.  It’s a crispy, lemony bounty piled high on the plate that makes your mouth start watering the moment you see Anthony strolling towards you with it on his tray. 
 
-http://ankomo.blogspot.com/2011/02/ifahamu-tanga-yacht-club.html
+But let’s not be unfair to the other dishes, because they are awesome too.  Like the fish paka - fresh fish in a coconut sauce - which you can have with rice, or chips or a huge mound of mash (FYI the Tanzanian potato is a marvel, so that mash is something else), or the beef pita pocket; a lighter lunchtime bite that’s packed with flavour, or the KFC chicken (yup, they cater for everyone here.  
+
+Bottom line there is a huge selection of local and international dishes available and likewise with the bar, takeaways are available.  Prices are extremely reasonable.  
+
+Opening hours are Wednesday from Noon (ish) to 1430 (ish) and then again from 1730 to 2200 (ish). On Fridays, Saturdays and Sundays the restaurant is open all day.
+
+Link to / download menu?
