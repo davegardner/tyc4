@@ -16,7 +16,6 @@ collections:
       - {label: "Date", name: "date", widget: "date", default: ""}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured Image", name: "featuredImage", widget: "image"}
-      - {label: "Featured Image Title", name: "featuredImageTitle", widget: "string"}
       - {label: "Tags", name: "tags", widget: "string"} # DAG: todo: make this a reference widget.
  - name: "pages"        #The name of the collection and should match our pages.json file's tag
    label: "Pages"       #The name of the collection on the CMS itself
@@ -27,7 +26,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Page Body", name: "body", widget: "markdown"}
- - name: "partials"        #The name of the collection and should match our partials.json file's tag
+ - name: "partials"       
    label: "Partials"       #The name of the collection on the CMS itself
    folder: "partials"      #The folder that our partials will be loaded from and saved to
    create: false             #Tells the CMS that new partials cannot be created
