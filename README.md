@@ -9,7 +9,6 @@ To log in: `tycTyc!2020`
 
 - Set up a new Netlify account for TYC
 - CSS
-    - vertical rhythm
     - images
 - home page hero
 - content:
@@ -18,6 +17,16 @@ To log in: `tycTyc!2020`
 - map showing TYC location for anchoring
 - map showing Tanga town and important places with pins
 
-- 
+- Order of menu
+    - 10 Clearing In
+    - 20 Provisioning
+    - 30 Places
+    - 40 Tourism
+    - 50 Phrases
+    - 60 History
+    - 70 News
+    - 80 Contact
+    - 90 About
 
+- Is deep data merging on or off? Tags problem?
 
