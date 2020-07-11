@@ -5,7 +5,7 @@ media_folder: "_site/images/uploads"
 public_folder: "/images/uploads"
 collections:
  - name: "posts"        #The name of the collection and should match our posts.json file's tag
-   label: "News"       #The name of the collection on the CMS itself
+   label: "What's Happening"       #The name of the collection on the CMS itself
    folder: "posts"      #The folder that our blog posts will be loaded from and saved to
    create: true             #Tells the CMS that new posts can be created
    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"  #this sets the URL for the post
@@ -14,10 +14,8 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Date", name: "date", widget: "date", default: ""}
-      - {label: "Menu Order", name: "order", widget: "number", valueType: float, default: "100"}
-      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured Image", name: "featuredImage", widget: "image"}
-      - {label: "Tags", name: "tags", widget: "string"} # DAG: todo: make this a reference widget.
+      - {label: "Body", name: "body", widget: "markdown"}
  - name: "pages"        #The name of the collection and should match our pages.json file's tag
    label: "Pages"       #The name of the collection on the CMS itself
    folder: "pages"      #The folder that our blog posts will be loaded from and saved to
@@ -26,6 +24,7 @@ collections:
    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Menu Order", name: "order", widget: "number", valueType: float, default: "100"}
       - {label: "Page Body", name: "body", widget: "markdown"}
  - name: "partials"        # Name of collection
    label: "Partials"       #The name of the collection on the CMS itself
