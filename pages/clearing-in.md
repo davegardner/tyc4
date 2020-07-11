@@ -4,7 +4,7 @@ title: Clearing In
 permalink: /clearing-in/
 eleventyNavigation:
   key: Clearing In
-  order: 4
+  order: 10
 ---
 
 Tanga Signal Station maintains a 24-hour watch.  On entering Tanga Bay contact Tanga Signal on channel VHF 12 or 16, although, full disclosure, this can be a fruitless task. 
