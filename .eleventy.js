@@ -11,7 +11,7 @@ module.exports = function (eleventyConfig) {
   let markdownIt = require("markdown-it");
   let mdOptions = {
     html: true,
-    breaks: true,
+    breaks: false,
     linkify: true
   };
   eleventyConfig.setLibrary("md", markdownIt(mdOptions));
