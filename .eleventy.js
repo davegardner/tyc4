@@ -4,6 +4,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('css') // todo: minify and inline
   eleventyConfig.addPassthroughCopy('js') // todo: minify and inline
   eleventyConfig.addPassthroughCopy({ "images/favicons": "/" })
+  
+  // Does deep data merging fix the tags problem?
+  eleventyConfig.setDataDeepMerge(true);
 
   let markdownIt = require("markdown-it");
   let mdOptions = {
