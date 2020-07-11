@@ -1,4 +1,4 @@
 {
     "tags": "partials",
-    "title": "Partial"
+    "identifier_field": "filename"
 }
