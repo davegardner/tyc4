@@ -4,7 +4,7 @@ permalink: /places/
 title: Places of Interest
 eleventyNavigation:
     key: Places of Interest
-    order: 2
+    order: 30
 ---
 
 
