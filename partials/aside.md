@@ -1,6 +1,4 @@
----
-title: Aside
----
+
 ### Sunshine and happiness!
 
 This where you put links to the good bits in the site.
