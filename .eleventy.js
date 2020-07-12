@@ -16,6 +16,8 @@ module.exports = function (eleventyConfig) {
   };
   eleventyConfig.setLibrary("md", markdownIt(mdOptions));
 
+  // This universal shortcode is needed to 'include' markdown for partials. 
+  // Frontmatter in partials is ignored.
   const markdownShortcode = require("eleventy-plugin-markdown-shortcode");
   eleventyConfig.addPlugin(markdownShortcode, mdOptions);
 
