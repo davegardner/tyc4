@@ -6,33 +6,29 @@ eleventyNavigation:
     key: Places of Interest
     order: 30
 ---
-
-
 ### Urithi Museum
 
 Tanga’s old boma has been refurbished and is now home to a small but beautifully curated museum with historical photos and artefacts from the area.  Here you can learn about Tanga’s fascinating past, from colonialism through to independence, from passionate and knowledgeable staff.  Make sure to ask your guide about the underground bunkers and secret passages to the sea!
 
-Located on Independence Avenue (next to the Tanga Library), 
-https://web.facebook.com/urithitanga.museum/?hc_ref=PAGES_TIMELINE&fref=nf&_rdc=1&_rdr
-Sun - Sun 11:00 AM - 3:00 PM
+Located on Independence Avenue (next to the Tanga Library), [Urithi Museum](https://web.facebook.com/urithitanga.museum)
+
 Mon - Sat 9:00 AM - 5:00 PM
 
 ### Amboni caves
 
 For a fun and quirky day out, nothing beats a trip around the Amboni Caves, an underground world of halls, chambers, niches and tunnels, some with stalactites and stalagmites.  They are thought to be the most extensive limestone caves in East Africa, a one kilometer stretch of which can be explored with a local guide.  You get to squeeze, crawl and climb about, all the while taking in the ancient paintings, animal footprints and signs of witchcraft.  The guide will tell you about the different people that used these mysterious caves - and hidden in them - through the ages.  See if you can spot the rock in the shape of the Virgin Mary and Statue of Liberty.
 
-Located on Usambara Street/Independence Avenue, Tanga City Off the Tanga-Mombasa Road
+Located on Usambara Street/Independence Avenue, Tanga City Off the Tanga-Mombasa Road.
 
 ### Tongoni Ruins
 
 About 17 km south of Tanga City lies the Tongoni ruins, the largest collection of Shiraz Tombs in East Africa.  There are approximately 40 tombs on site as well as the remains of a Mosque that date from the 14th to 15th Century.  The ruins indicate there was once immense prosperity in the area before the Portuguese arrived and disrupted the trading routes that the coastal towns, like Tongoni, depended.
 
-
 ### Pangani
 
 With its rich history and fusion of cultural heritage that includes Arabic, German, Asian and British influences, Pangani holds a well-deserved spot on the list of Tanzanian must-sees.  There’s plenty to do here - a historical town tour of the old port and slave routes, a beautiful river crossing across the Pangani river, village tours where you are welcomed into people’s homes for a first-hand Swahili experience as well as fishing trips and cycling tours.  Alternatively you can take a boat trip to Maziwe Marine Park Island and swim, snorkel, soak up the sun and enjoy a spot of dolphin watching. 
 
-https://www.tanzaniatourism.go.tz/en/destination/pangani-town
+[Pangani Tourism](https://www.tanzaniatourism.go.tz/en/destination/pangani-town)
 
 ### Usambara Mountains
 
@@ -48,12 +44,15 @@ Just outside the entrance to the bay as you approach Tanga there’s a popular s
 
 Other places of interest around town
 
-The two important World War 1 cemeteries, the Sakarani and the Commonwealth War cemetery. 
-The Usambara Courthouse. 
-A Library built during the British colonial era.
-The original Clock Tower dating to 1901.
-The Katani Building and the lead Memorial Hall, both dating back to the early 1950’s.
+- The two important World War 1 cemeteries, the Sakarani and the Commonwealth War cemetery.
 
+- The Usambara Courthouse. 
+
+- A Library built during the British colonial era.
+
+- The original Clock Tower dating to 1901.
+
+- The Katani Building and the lead Memorial Hall, both dating back to the early 1950’s.
 
 ### Mkomazi National Park
 
@@ -63,4 +62,4 @@ During your visit you are likely to spot giraffes, oryx, gerenuk, hartebeest, le
 
 There are beautiful look-out points throughout the park and if you want to enjoy some time there under canvas there are camping options available.
 
-http://www.mkomazi.info/
+[Mkomazi National Park](http://www.mkomazi.info/)
