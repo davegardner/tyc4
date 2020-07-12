@@ -85,6 +85,9 @@ header h1 a {
   width: 100%;
 }
 
+h1 img{
+  width: auto;
+}
 .hero h1 {
   color: var(--highlight-color);
   font-size: 7vw;
