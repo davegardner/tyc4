@@ -5,9 +5,10 @@
   "main": "eleventy.js",
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
-    "eleventy-plugin-markdown-shortcode": "^1.0.1",
+    "eleventy-plugin-markdown-shortcode": "^1.1.0",
     "eleventy-plugin-sass": "^1.0.0",
-    "luxon": "^1.24.1"
+    "luxon": "^1.24.1",
+    "markdown-it-front-matter": "^0.2.1"
   },
   "devDependencies": {
     "@11ty/eleventy-navigation": "^0.1.5"
