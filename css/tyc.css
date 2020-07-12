@@ -37,10 +37,20 @@ body {
 }
 
 @media screen and (min-width: 35rem) {
+
   main {
     display: flex;
     align-items: stretch;
   }
+
+  nav#raisin ul{
+    display: block;
+  }
+
+  /*  always display hamburger
+  nav#hamburger {
+    display: none;
+  } */
 }
 
 main,
@@ -54,19 +64,20 @@ footer,
 }
 aside,
 footer {
-  padding: calc(var(--rhythm) / 2) 0 calc(var(--rhythm) / 2)  0;
+  padding: calc(var(--rhythm) / 2) 0 calc(var(--rhythm) / 2) 0;
 }
 
 header {
   border: 0;
 }
 
-header.page{
+header.page {
   padding: calc(var(--rhythm) / 2) 0 calc(var(--rhythm) / 2) 0;
 }
 
 header h1 {
-  font-size: smaller;
+  font-size: 1.4rem;
+  font-weight: 600;
   margin-top: 0.4rem;
   margin-left: var(--horizontal-padding);
 }
@@ -85,9 +96,11 @@ header h1 a {
   width: 100%;
 }
 
-h1 img{
+img.logo {
   width: auto;
+  float: left;
 }
+
 .hero h1 {
   color: var(--highlight-color);
   font-size: 7vw;
@@ -109,7 +122,7 @@ article {
 }
 
 .wrapper {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: stretch;
 }
@@ -265,7 +278,7 @@ footer {
   transform-origin: 0% 100%;
 }
 
-/* 
+/*
   * Transform all the slices of hamburger
   * into a crossmark.
   */
@@ -330,7 +343,33 @@ footer {
   transform: none;
 }
 
-/* Rhythm grid */
+
+/* raisin menu ****************/
+
+#raisin ul {
+  display: none;
+  margin: 0 0 0 0;
+  padding: .5rem;
+  font-family: var(--heading-font);
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+#raisin li {
+  display: inline;
+  padding: .2em;
+  font-size: .8rem;
+}
+
+#raisin a {
+  text-decoration: none;
+  color: var(--nav-text-color);
+}
+#raisin a:hover {
+  color: var(--nav-hamburger-color);
+}
+
+/* Rhythm grid ******************/
 /* body {
   position: relative;
 }
@@ -370,8 +409,7 @@ footer p {
   margin-bottom: 0;
 }
 
-
 /* mixins */
-.tyc-rhythm-bottom{
+.tyc-rhythm-bottom {
   margin-bottom: var(--rhythm);
 }
