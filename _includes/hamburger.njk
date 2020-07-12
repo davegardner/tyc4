@@ -1,4 +1,5 @@
-<nav title="Menu...">
+{% set navPages = collections.all | eleventyNavigation %}
+<nav id="hamburger" title="Menu...">
     <div id="menuToggle">
         <input id="hamburgerButton" type="checkbox"/>
         <span></span>
@@ -6,9 +7,8 @@
         <span></span>
         {# This makes a multilevel menu #}
         {# {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({listClass: "nav-list-class"}) | safe }} #}
-        
+
         {# This makes a single level meny, but provides control over layout #}
-        {% set navPages = collections.all | eleventyNavigation %}
         <ul id="menu">
             {%- for entry in navPages %}
                 <li{% if entry.url == page.url %} class="my-active-class"{% endif %}>
@@ -17,4 +17,13 @@
             {%- endfor %}
         </ul>
     </div>
+</nav>
+<nav id='raisin'>
+    <ul>
+        {%- for entry in navPages %}
+            <li{% if entry.url == page.url %} class="my-active-class"{% endif %}>
+                <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+            </li>
+        {%- endfor %}
+    </ul>
 </nav>
