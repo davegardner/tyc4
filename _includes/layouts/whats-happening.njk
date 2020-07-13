@@ -20,7 +20,7 @@ layout: layouts/base.njk
 
                 <h3>{{ date | readableDate }}</h3>
 
-                <p>{% for tag in tags %}<span class="tag">{{ tag }}</span>{% endfor %}</p>
+                {# <p>{% for tag in tags %}<span class="tag">{{ tag }}</span>{% endfor %}</p> #}
 
                 {{ content | safe }}
 
