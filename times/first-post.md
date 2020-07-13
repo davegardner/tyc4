@@ -8,4 +8,6 @@ featuredImageTitle: Yachts
 tags: Tanga
 ---
 
-Twas brillig and the slithy toves did gyre and gimbal in the wabe.
+Currently there are no restrictions on entering or leaving Tanzania. You can [clear in](/clearing-in/) without quarantine and clear out when you want to.
+
+Hand-washing before entering any premises is heavily encouraged, and masks are worn in some places. Social distancing is practiced.
