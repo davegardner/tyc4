@@ -2,7 +2,7 @@
 layout: layouts/whats-happening.njk
 title: Corona Virus
 description: All you need to know.
-date: 2020-06-30
+date: 2020-07-12T21:00:00.000Z
 featuredImage: /images/uploads/_DAG6862.jpg
 featuredImageTitle: Yachts
 tags: Tanga
