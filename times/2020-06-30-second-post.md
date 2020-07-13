@@ -1,9 +1,9 @@
 ---
-layout: layouts/post.njk
-title: Early News
-description: The second in a long series of rubbish.
+layout: layouts/whats-happening.njk
+title: Restaurants and Bars
+description: Where to go in the evenings.
 date: 2020-05-31T21:00:00.000Z
-featuredImage: /images/uploads/_dag6862.jpg
+featuredImage: /images/uploads/_DAG6862.jpg
 featuredImageTitle: Yachts at anchor
 tags: Tanga
 ---

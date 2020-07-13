@@ -4,9 +4,9 @@ backend:
 media_folder: "_site/images/uploads"
 public_folder: "/images/uploads"
 collections:
- - name: "posts"        #The name of the collection and should match our posts.json file's tag
-   label: "What's Happening"       #The name of the collection on the CMS itself
-   folder: "posts"      #The folder that our blog posts will be loaded from and saved to
+ - name: "times"        #The name of the collection and should match our posts.json file's tag
+   label: "Tanga Times"       #The name of the collection on the CMS itself
+   folder: "times"      #The folder that our blog posts will be loaded from and saved to
    create: true             #Tells the CMS that new posts can be created
    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"  #this sets the URL for the post
    fields:

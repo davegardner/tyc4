@@ -1,8 +1,10 @@
 ---
-layout: layouts/post.njk
+layout: layouts/whats-happening.njk
 title: Responsiveness
 description: Calculating rhythm
 date: 2020-07-10
+featuredImage: /images/uploads/_DAG6862.jpg
+featuredImageTitle: Yachts
 ---
 This is the original expression from [CSS Tricks ](https://css-tricks.com/math-css-locks/):
 

@@ -1,9 +1,9 @@
 ---
-layout: layouts/post.njk
-title: Fourth of July
-description: The band played on...
+layout: layouts/whats-happening.njk
+title: Suppliers
+description: Where to find services and goods
 date: 2020-07-03T21:00:00.000Z
-featuredImage: /images/uploads/_dag6857.jpg
+featuredImage: /images/uploads/_DAG6862.jpg
 featuredImageTitle: Long and boring
 tags: Tanga
 ---

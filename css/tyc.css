@@ -343,6 +343,9 @@ footer {
   transform: none;
 }
 
+.active-page-class{
+  font-weight: 700;
+}
 
 /* raisin menu ****************/
 

@@ -8,10 +8,10 @@
         {# This makes a multilevel menu #}
         {# {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({listClass: "nav-list-class"}) | safe }} #}
 
-        {# This makes a single level meny, but provides control over layout #}
+        {# This makes a single level menu, but provides control over layout #}
         <ul id="menu">
             {%- for entry in navPages %}
-                <li{% if entry.url == page.url %} class="my-active-class"{% endif %}>
+                <li{% if entry.url == page.url %} class="active-page-class"{% endif %}>
                     <a href="{{ entry.url | url }}">{{ entry.title }}</a>
                 </li>
             {%- endfor %}
@@ -21,7 +21,7 @@
 <nav id='raisin'>
     <ul>
         {%- for entry in navPages %}
-            <li{% if entry.url == page.url %} class="my-active-class"{% endif %}>
+            <li{% if entry.url == page.url %} class="active-page-class"{% endif %}>
                 <a href="{{ entry.url | url }}">{{ entry.title }}</a>
             </li>
         {%- endfor %}
