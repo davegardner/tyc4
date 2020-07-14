@@ -39,5 +39,3 @@ But let’s not be unfair to the other dishes, because they are awesome too.  Li
 Bottom line there is a huge selection of local and international dishes available and likewise with the bar, takeaways are available.  Prices are extremely reasonable.  
 
 Opening hours are Wednesday from Noon (ish) to 1430 (ish) and then again from 1730 to 2200 (ish). On Fridays, Saturdays and Sundays the restaurant is open all day.
-
-Link to / download menu?
