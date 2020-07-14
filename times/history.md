@@ -1,10 +1,11 @@
 ---
-layout: layouts/page.njk
+layout: layouts/times.njk
 title: The History of the Club
-permalink: /history/
-eleventyNavigation:
-  key: History
-  order: 60
+description: Tanga Yacht Club has a long history promoting sailing, fishing and social activities.
+date: 2020-07-12T21:00:00.000Z
+featuredImage: /images/uploads/_DAG6862.jpg
+featuredImageTitle: Yachts
+tags: Tanga
 ---
 
 Tanga Yacht Club was founded on 1st May 1944 when a number of local businessmen and government officials formed a limited company. The certificate of incorporation was issued by the registrar of companies in Dar es Salaam on 7th June 1944. Founder members of the club in that time were G. Tirant, A.R. Pain, R.C. Jerrard, W. Bain, A.A. Phibbs, P. Roach and D. McQueen, all of them, as usual in that time, of male origin. 

@@ -1,10 +1,11 @@
 ---
-layout: layouts/page.njk
+layout: layouts/times.njk
 title: Provisioning
-permalink: /provisioning/
-eleventyNavigation:
-    key: Provisioning
-    order: 20
+description: Where to get water, diesel, cash, food, clothes and boat bits.
+date: 2020-07-12T21:00:00.000Z
+featuredImage: /images/uploads/_DAG6862.jpg
+featuredImageTitle: Yachts
+tags: Tanga
 ---
 
 ### Water

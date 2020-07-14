@@ -4,7 +4,7 @@ title: Contact Us
 permalink: /contact/
 eleventyNavigation:
     key: Contact Us
-    order: 80
+    order: 90
 ---
 
 GPS:  05°03’S, 039°07’E (off the town).

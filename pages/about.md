@@ -4,7 +4,7 @@ title: About Tanga Yacht Club
 permalink: /about/
 eleventyNavigation:
   key: About Us
-  order: 90
+  order: 80
 ---
 
 TYC is a place for families and yachties to spend the day relaxing by the ocean, taking dips in the water.  It’s beautiful, and at dusk the inky blues of the sea meet the pinks and yellows of the sky to create one heck of a sundowner backdrop.  You have to see it to believe it. 

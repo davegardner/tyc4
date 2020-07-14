@@ -2,9 +2,7 @@
 layout: layouts/page.njk
 permalink: /typography/
 title: Typography
-eleventyNavigation:
-    key: Typography
-    order: 99
+
 typography: true
 ---
 

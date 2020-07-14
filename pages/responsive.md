@@ -1,6 +1,7 @@
 ---
 layout: layouts/times.njk
 title: Responsiveness
+permalink: /responsiveness/
 description: Calculating rhythm
 date: 2020-07-10
 featuredImage: /images/uploads/_DAG6862.jpg
