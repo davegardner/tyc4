@@ -4,10 +4,10 @@ title: Aside
 
 #### Headlines
 
-- [Corona Virus](/2020-07-12-corona-virus/)
+- [Corona Virus](/times/2020-07-12-corona-virus/)
 
-- [Clearing In](/clearing-in/)
+- [Clearing In](/times/clearing-in/)
 
-- [Provisioning](/provisioning/)
+- [Provisioning](/times/provisioning/)
 
 Visit [TYC Tanga Times](/times/) for much more information.

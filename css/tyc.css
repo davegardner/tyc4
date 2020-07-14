@@ -445,6 +445,20 @@ footer p {
 }
 
 /* Aside */
+/* .smaller-font {
+  font-size: 0.8em;
+} */
+
 aside p {
-  font-size: .8em;
+  margin-bottom: 0;
+  font-size: 0.8em;
+}
+
+aside ul {
+  /* font-size: 0.8em; */
+  padding-left: 20px;
+}
+
+aside ul li {
+  margin-bottom: calc(var(--rhythm) / 4);
 }
