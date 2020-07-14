@@ -13,12 +13,12 @@ layout: layouts/base.njk
 <img class="post-splash" src="{{ featuredImage | url }}" alt="{{ featuredImageTitle }}" ></img>
 
 <main >
-    <article>
+    <article class="times">
         <div class="wrapper">
             <div class="content">
                 <h1>{{ title }}</h1>
 
-                <h3>{{ date | readableDate }}</h3>
+                <h3>{% fullBuildDate %}</h3>
 
                 {# <p>{% for tag in tags %}<span class="tag">{{ tag }}</span>{% endfor %}</p> #}
 
@@ -28,6 +28,6 @@ layout: layouts/base.njk
         </div>
     </article>
     <aside>
-        {% markdown "/partials/aside.md" %}
+        {% include "aside.njk" %}
     </aside>
 </main>

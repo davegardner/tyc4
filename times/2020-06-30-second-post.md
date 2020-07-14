@@ -1,5 +1,5 @@
 ---
-layout: layouts/whats-happening.njk
+layout: layouts/times.njk
 title: Restaurants and Bars
 description: Where to go in the evenings.
 date: 2020-05-31T21:00:00.000Z

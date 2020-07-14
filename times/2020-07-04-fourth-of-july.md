@@ -1,5 +1,5 @@
 ---
-layout: layouts/whats-happening.njk
+layout: layouts/times.njk
 title: Suppliers
 description: Where to find services and goods
 date: 2020-07-03T21:00:00.000Z
