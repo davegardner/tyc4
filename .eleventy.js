@@ -4,12 +4,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('css') // todo: minify and inline
   eleventyConfig.addPassthroughCopy('js') // todo: minify and inline
   eleventyConfig.addPassthroughCopy({ "images/favicons": "/" })
-  
+
   // Does deep data merging fix the tags problem?
   eleventyConfig.setDataDeepMerge(true);
 
-  let markdownIt = require("markdown-it");
-  let mdOptions = {
+  const markdownIt = require("markdown-it");
+  const mdOptions = {
     html: true,
     breaks: false,
     linkify: true
@@ -37,6 +37,33 @@ module.exports = function (eleventyConfig) {
       zone: 'utc'
     }).toFormat("dd-MM-yy");
   });
+
+  // Date of last build
+  eleventyConfig.addShortcode("buildDate", function () {
+    return new Date();
+  });
+
+  // Date of last build
+  eleventyConfig.addShortcode("fullBuildDate", function () {
+    const dt = DateTime.local();
+    return dt.toLocaleString(DateTime.DATETIME_FULL);
+
+  });
+
+  eleventyConfig.addFilter("toNewspaperDate", dateObj => {
+    dateObj = new Date();
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const date = `${days[dateObj.getDay()]}, ${dateObj.getDate()} ${months[dateObj.getMonth()]} ${dateObj.getFullYear()}`;
+    // return `${dateObj}`;
+    return date;
+  });
+
+  eleventyConfig.addFilter("fullDate", dateObj => {
+    const dt = new DateTime.local();
+    return dt.toLocaleString(DATETIME_FULL);
+  });
+
 
   const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);

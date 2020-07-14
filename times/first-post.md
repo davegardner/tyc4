@@ -1,5 +1,5 @@
 ---
-layout: layouts/whats-happening.njk
+layout: layouts/times.njk
 title: Corona Virus
 description: All you need to know.
 date: 2020-07-12T21:00:00.000Z

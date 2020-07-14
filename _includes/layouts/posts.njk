@@ -1,8 +1,10 @@
 ---
 layout: layouts/page.njk
+class: times
 ---
-
-{{ content | safe }}
+<div class="times">
+    {{ content | safe }}
+</div>
 
 {% set postslist = collections.times %}
 {% include "postslist.njk" %}

@@ -1,5 +1,6 @@
 ---
 layout: layouts/base.njk
+
 ---
 
 <header class="page">
@@ -10,15 +11,18 @@ layout: layouts/base.njk
     {% include "hamburger.njk" %}
 </header>
 <main >
-    <article>
+    <article class="{{ class }}">
         <div class="wrapper">
             <div class="content">
                 <h1>{{ title }}</h1>
+                {% if class == "times" %}
+                <h3>Tanga, Tanzania &ndash; {% fullBuildDate %}</h3>
+                {% endif %}
                 {{ content | safe }}
             </div>
         </div>
     </article>
     <aside>
-        {% markdown "/partials/aside.md" %}
+           {% include "aside.njk" %}
     </aside>
 </main>

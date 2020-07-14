@@ -1,5 +1,5 @@
 ---
-layout: layouts/whats-happening.njk
+layout: layouts/times.njk
 title: Responsiveness
 description: Calculating rhythm
 date: 2020-07-10
