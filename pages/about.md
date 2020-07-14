@@ -6,7 +6,6 @@ eleventyNavigation:
   key: About Us
   order: 80
 ---
-
 TYC is a place for families and yachties to spend the day relaxing by the ocean, taking dips in the water.  It’s beautiful, and at dusk the inky blues of the sea meet the pinks and yellows of the sky to create one heck of a sundowner backdrop.  You have to see it to believe it. 
 
 ### Facilities
@@ -33,7 +32,7 @@ The delicious on-site restaurant has the same opening hours although is currentl
 
 ### The restaurant
 
-It’s worth crossing the Indian Ocean just for (insert name’s) fish and chips.  There’s no tiny portion of something limp and soggy here.  It’s a crispy, lemony bounty piled high on the plate that makes your mouth start watering the moment you see Anthony strolling towards you with it on his tray. 
+It’s worth crossing the Indian Ocean just for Cecelia's fish and chips.  There’s no tiny portion of something limp and soggy here.  It’s a crispy, lemony bounty piled high on the plate that makes your mouth start watering the moment you see Anthony strolling towards you with it on his tray. 
 
 But let’s not be unfair to the other dishes, because they are awesome too.  Like the fish paka - fresh fish in a coconut sauce - which you can have with rice, or chips or a huge mound of mash (FYI the Tanzanian potato is a marvel, so that mash is something else), or the beef pita pocket; a lighter lunchtime bite that’s packed with flavour, or the KFC chicken (yup, they cater for everyone here.  
 
