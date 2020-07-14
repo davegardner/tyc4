@@ -24,13 +24,13 @@ collections:
    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.njk"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Page Body", name: "body", widget: "markdown"}
       - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
         name: "eleventyNavigation"
         widget: "object"
         fields:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
+      - {label: "Page Body", name: "body", widget: "markdown"}
  - name: "partials"        # Name of collection
    label: "Partials"       #The name of the collection on the CMS itself
    folder: "partials"      #The folder that our partials will be loaded from and saved to
