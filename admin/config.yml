@@ -10,7 +10,7 @@ collections:
    create: true             #Tells the CMS that new posts can be created
    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"  #this sets the URL for the post
    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/times.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Date", name: "date", widget: "date", default: ""}
@@ -24,11 +24,17 @@ collections:
    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.njk"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Menu Order", name: "order", widget: "number", valueType: float, default: "100"}
       - {label: "Page Body", name: "body", widget: "markdown"}
+      - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+        name: "eleventyNavigation"
+        widget: "object"
+        fields:
+          - { label: "Key", name: "key", widget: "string" }
+          - { label: "Order", name: "order", widget: "number", default: 0 }
  - name: "partials"        # Name of collection
    label: "Partials"       #The name of the collection on the CMS itself
    folder: "partials"      #The folder that our partials will be loaded from and saved to
    create: false             #Tells the CMS that new partials cannot be created
    fields:
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Page Body", name: "body", widget: "markdown"}
