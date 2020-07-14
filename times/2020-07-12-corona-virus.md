@@ -1,7 +1,7 @@
 ---
 layout: layouts/times.njk
 title: Corona Virus
-description: All you need to know.
+description: You can freely enter and leave the country, but there are some restrictions.
 date: 2020-07-12T21:00:00.000Z
 featuredImage: /images/uploads/_DAG6862.jpg
 featuredImageTitle: Yachts

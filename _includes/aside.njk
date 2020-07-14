@@ -2,7 +2,9 @@
 {% set postslist = collections.times | head(-2) %}
 {% set postslistCounter = collections.times | length %}
 
-<p>Visit the <a href="/times/">TYC Tanga Times</a> for news and information. Here are the 2 most recent items:</p>
+<p>For news and information visit <a href="/times/">TYC Tanga Times</a>.</p> 
+
+<h3>Recent news:</h3>
 
 <ul class="postlist" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
     {% for post in postslist | reverse %}

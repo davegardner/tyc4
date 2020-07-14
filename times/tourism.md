@@ -1,10 +1,11 @@
 ---
 layout: layouts/page.njk
 title: Tourism
-permalink: /tourism/
-eleventyNavigation:
-    key: Tourism
-    order: 40
+description: Tanga and surrounds.
+date: 2020-07-12T21:00:00.000Z
+featuredImage: /images/uploads/_DAG6862.jpg
+featuredImageTitle: Yachts
+tags: Tanga
 ---
 
 You wouldn’t know it to be here, but the Tanga is one of the largest cities in the country.  It is a peaceful colonial town on the 'fever coast' of Northern Tanzania.  It’s the most northerly seaport and administrative capital of the Tanga region.  It has a population of around 250,000 people.
