@@ -4,8 +4,6 @@ title: Places of Interest
 description: In addition to local attractions, Tanga is a great place from which to launch your Tanzanian safari.
 date: 2020-07-12T21:00:00.000Z
 featuredImage: /images/uploads/_DAG6862.jpg
-featuredImageTitle: Yachts
-tags: Tanga
 ---
 ### Urithi Museum
 

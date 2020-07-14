@@ -433,7 +433,7 @@ footer p {
   padding-bottom: 0;
 }
 
-.times h3 {
+.times h6 {
   font-family: var(--tanga-times-font);
   font-size: 0.5em;
   margin: 0 10% var(--rhythm) 10%;

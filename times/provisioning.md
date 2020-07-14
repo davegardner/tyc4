@@ -4,8 +4,6 @@ title: Provisioning
 description: Where to get water, diesel, cash, food, clothes and boat bits.
 date: 2020-07-12T21:00:00.000Z
 featuredImage: /images/uploads/_DAG6862.jpg
-featuredImageTitle: Yachts
-tags: Tanga
 ---
 
 ### Water

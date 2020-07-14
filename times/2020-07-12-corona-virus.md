@@ -4,8 +4,6 @@ title: Corona Virus
 description: You can freely enter and leave the country, but there are some restrictions.
 date: 2020-07-12T21:00:00.000Z
 featuredImage: /images/uploads/_DAG6862.jpg
-featuredImageTitle: Yachts
-tags: Tanga
 ---
 
 Currently there are no restrictions on entering or leaving Tanzania. You can [clear in](/clearing-in/) without quarantine and clear out when you want to.

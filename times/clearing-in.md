@@ -4,8 +4,6 @@ title: Clearing In
 description: How to contact the Harbour Master, Immigration and Health.
 date: 2020-07-12T21:00:00.000Z
 featuredImage: /images/uploads/_DAG6862.jpg
-featuredImageTitle: Yachts
-tags: Tanga
 ---
 
 Tanga Signal Station maintains a 24-hour watch.  On entering Tanga Bay contact Tanga Signal on channel VHF 12 or 16, although, full disclosure, this can be a fruitless task. 
