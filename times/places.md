@@ -1,17 +1,22 @@
 ---
 layout: layouts/times.njk
 title: Places of Interest
-description: In addition to local attractions, Tanga is a great place from which to launch your Tanzanian safari.
+description: In addition to local attractions, Tanga is a great place from which
+  to launch your Tanzanian safari.
 date: 2020-07-12T21:00:00.000Z
 featuredImage: /images/uploads/_DAG6862.jpg
 ---
 ### Urithi Museum
 
-Tanga’s old boma has been refurbished and is now home to a small but beautifully curated museum with historical photos and artefacts from the area.  Here you can learn about Tanga’s fascinating past, from colonialism through to independence, from passionate and knowledgeable staff.  Make sure to ask your guide about the underground bunkers and secret passages to the sea!
+Tanga’s old "boma" (colonial administrative building) has been refurbished and is now home to a small but beautifully curated museum with historical photos and artefacts from the area.  Here you can learn about Tanga’s fascinating past, from colonialism through to independence, from passionate and knowledgeable staff.  Make sure to ask your guide about the underground bunkers and secret passages to the sea!
 
 Located on Independence Avenue (next to the Tanga Library), [Urithi Museum](https://web.facebook.com/urithitanga.museum)
 
 Mon - Sat 9:00 AM - 5:00 PM
+
+The Tanga Regional Library (formerly King George’s Memorial Library) is also well worth a visit.  Located next door to the museum, it houses a surprisingly large collection of historical books including the visitors’ book that was signed by Governor Sir Edward Twining on March 11th 1958, when he came to open the library.
+
+The building itself was built in honour of King George VI after the British requested all colonies and provinces build such monuments following his death in 1952.  The building has undergone major restoration work in the past few years.
 
 ### Amboni caves
 
@@ -43,19 +48,14 @@ Just outside the entrance to the bay as you approach Tanga there’s a popular s
 
 Other places of interest around town
 
-- The two important World War 1 cemeteries, the Sakarani and the Commonwealth War cemetery.
-
-- The Usambara Courthouse. 
-
-- A Library built during the British colonial era.
-
-- The original Clock Tower dating to 1901.
-
-- The Katani Building and the lead Memorial Hall, both dating back to the early 1950’s.
+* The two important World War 1 cemeteries, the Sakarani and the Commonwealth War cemetery.
+* The Usambara Courthouse. 
+* The original Clock Tower dating to 1901.
+* The Katani Building and the lead Memorial Hall, both dating back to the early 1950’s.
 
 ### Mkomazi National Park
 
-This is a more intimate, less crowded and less expensive park than the other national parks in Tanzania and is a vital refuge for two highly endangered species, the charismatic black rhino and sociable African wild dog.  It is a magnificent, 3,500 square kilometre wilderness within sight of Mount Kilimanjaro and against the dramatic backdrop of the Pare and Usambara Mountains.  To the north it shares a border with Kenya’s vast Tsavo National Park making common ground for migratory herds of elephant, oryx and zebra during the wet season.  
+This is a more intimate, less crowded and less expensive park than the other national parks in Tanzania, and it's also the closest.  It's a vital refuge for two highly endangered species, the charismatic black rhino and sociable African wild dog.  It is a magnificent, 3,500 square kilometre wilderness within sight of Mount Kilimanjaro and against the dramatic backdrop of the Pare and Usambara Mountains.  To the north it shares a border with Kenya’s vast Tsavo National Park making common ground for migratory herds of elephant, oryx and zebra during the wet season.  
 
 During your visit you are likely to spot giraffes, oryx, gerenuk, hartebeest, lesser kudu, eland, impala and Grant’s gazelle who share the park with elephants and buffalo, as well as predators like lions, leopards and cheetahs.  There are over 400 recorded species of birds there too including the martial eagle and violet wood-hoopoe.
 
