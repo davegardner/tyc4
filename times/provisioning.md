@@ -57,7 +57,7 @@ With Tigo, assuming you have a smartphone and credit on your account, you can to
 
 Getting into Tanga from the yacht club is easy.  It’s close enough to walk, 20 minutes or so, or a couple of hundred meters up from the club it’s possible to grab a boda boda (motorbike) for approximately 2000 Tsh or a dula dula (small bus) for 400 Tsh.  You may wish to come back from town with all your shopping in a bejaji (tuk tuk) which will cost around 4000 Tsh.  There are also taxis available. 
 
-A list of bejahi, taxi and boda boda numbers are pinned up on the notice board in the yacht club. 
+A list of bejahi, taxi and boda boda drivers are pinned up on the notice board in the yacht club if you want to be collected from the club. 
 
 ### Medical
 
