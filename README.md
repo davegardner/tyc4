@@ -10,23 +10,29 @@ To log in: `tycTyc!2020`
 - Set up a new Netlify account for TYC
 - CSS
     - images
-- home page hero
-- content:
+ content:
     - text
     - images
 - map showing TYC location for anchoring
 - map showing Tanga town and important places with pins
 
-- Order of menu
-    - 10 Clearing In
-    - 20 Provisioning
-    - 30 Places
-    - 40 Tourism
-    - 50 Phrases
-    - 60 History
-    - 70 News
-    - 80 Contact
-    - 90 About
+- Is deep data merging on or off? Tags problem? It was off and should be on. But have decided against using tags for now.
 
-- Is deep data merging on or off? Tags problem?
+- SEO
 
+## Responsive Images
+
+There are several types of images in the TYC website:
+
+- Home Hero. This is the big splash image at the top of the home page.
+- TYC Times Hero. These images are a bit like the Home Hero and appear near the top of each TPG Times post.
+- Embedded (other). Normal, smaller, images anywhere in any page, post or aside.
+
+### Home Hero
+This gets a bit of special attention because it's on the home page. The special attention boils down to a greater number of statically formatted sized jpg files. Otherwise there is no difference between this and TYC Times Hero images.
+
+### TYC Times Hero
+
+
+### Embedded
+One size fits all. These images are smaller, of lower quality and don't justify the work of 
