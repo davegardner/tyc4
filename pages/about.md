@@ -20,7 +20,7 @@ All of the staff here are absolute diamonds.  From the commodore to the committe
 
 The yacht club is inexpensive to join and loves to welcome new members.  A temporary membership costs 60,000 Tsh / $25 USD per month and requires a 100,000 Tsh / $43 USD deposit which naturally you get back at the end.  You pay the deposit directly into the bank which is a painless process.
 
-There’s a form to fill in which asks for your address and passport numbers and requires signatures from two members of the committee which is also easy to arrange.  Just ask Mercy (the office manager) for a form.  As a temporary member you receive a book with a unique bar number that you top up with cash (either at the bank or by card at the bar) and then all of your drinks come off from there.  When you run low on funds you just top up again.
+There’s a form to fill in which asks for your address and passport numbers and requires signatures from two members of the committee which is also easy to arrange.  Just ask Mercy, the office manager, for a form.  As a temporary member you receive a book with a unique bar number that you top up with cash (either at the bank or by card at the bar) and then all of your drinks come off from there.  When you run low on funds you just top up again.
 
 If you are only staying for a short period you’ll want to skip that and pay the weekly fee of 40,000 Tsh / $17 USD (which although more, is still inexpensive for what you get) and buy your drinks with coupons. 
 
@@ -28,14 +28,14 @@ If you are only staying for a short period you’ll want to skip that and pay th
 
 Opening hours are daily from 1100 (ish) to 1430 (ish) and then again from 1730 to 2200 (ish) except on Fridays, Saturdays and Sundays when it’s open all day.
 
-The delicious on-site restaurant has the same opening hours although is currently closed on Mondays, Tuesdays and Thursdays. 
+The delicious on-site restaurant has the same opening hours although is currently closed on Mondays and Tuesdays. 
 
 ### The restaurant
 
-It’s worth crossing the Indian Ocean just for Cecelia's fish and chips.  There’s no tiny portion of something limp and soggy here.  It’s a crispy, lemony bounty piled high on the plate that makes your mouth start watering the moment you see Anthony strolling towards you with it on his tray. 
+It’s worth crossing the Indian Ocean just for Cecelia's fish and chips.  There’s no tiny portion of something soggy here.  It’s a crispy, lemony bounty piled high on the plate that makes your mouth start watering the moment you see Anthony strolling towards you with it on his tray. 
 
 But let’s not be unfair to the other dishes, because they are awesome too.  Like the fish paka - fresh fish in a coconut sauce - which you can have with rice, or chips or a huge mound of mash (FYI the Tanzanian potato is a marvel, so that mash is something else), or the beef pita pocket; a lighter lunchtime bite that’s packed with flavour, or the KFC chicken (yup, they cater for everyone here).  
 
 Bottom line, there is a huge selection of local and international dishes available and likewise with the bar, takeaways are available.  Prices are extremely reasonable.  
 
-Opening hours are Wednesday from Noon (ish) to 1430 (ish) and then again from 1730 to 2200 (ish). On Fridays, Saturdays and Sundays the restaurant is open all day.
+Opening hours are Wednesday and Thursday from Noon (ish) to 1430 (ish) and then again from 1730 to 2200 (ish). On Fridays, Saturdays and Sundays the restaurant is open all day.
