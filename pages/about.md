@@ -20,7 +20,7 @@ All of the staff here are absolute diamonds.  From the commodore to the committe
 
 The yacht club is inexpensive to join and loves to welcome new members.  A temporary membership costs 60,000 Tsh / $25 USD per month and requires a 100,000 Tsh / $43 USD deposit which naturally you get back at the end.  You pay the deposit directly into the bank which is a painless process.
 
-There’s a form to fill in which asks for your address and passport numbers and requires two signatures from a member of the committee which is also easy to arrange.  Just ask Mercy (the office manager) for a form.  As a temporary member you receive a book with a unique bar number that you top up with cash (either at the bank or by card at the bar) and then all of your drinks come off from there.  When you run low on funds you just top up again.
+There’s a form to fill in which asks for your address and passport numbers and requires signatures from two members of the committee which is also easy to arrange.  Just ask Mercy (the office manager) for a form.  As a temporary member you receive a book with a unique bar number that you top up with cash (either at the bank or by card at the bar) and then all of your drinks come off from there.  When you run low on funds you just top up again.
 
 If you are only staying for a short period you’ll want to skip that and pay the weekly fee of 40,000 Tsh / $17 USD (which although more, is still inexpensive for what you get) and buy your drinks with coupons. 
 
