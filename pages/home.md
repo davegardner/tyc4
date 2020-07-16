@@ -10,7 +10,7 @@ eleventyNavigation:
 
 There can’t be many sunsets more spectacular than those you get to enjoy from the terrace of Tanga Yacht Club.  If there are, they’re unlikely to come with arguably the world’s best fish and chips or crispiest calamari.
 
-What about the anchorage here?  It’s safe and protected, year-round.  You could comfortably anchor up and head home for an extended period, if you wanted.
+What about the anchorage here?  It’s safe and protected, year-round.  You could comfortably anchor up and head home for an extended period if you wanted.
 
 Tanga itself is friendly and welcoming to yachties and there are all sorts of hardware stores and places you can buy the kit you’ll likely need for your boat.  For more specialised equipment there’s always DHL Express who have an office in town and run a slick service. 
 
