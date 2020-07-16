@@ -12,7 +12,7 @@ TYC is a place for families and yachties to spend the day relaxing by the ocean,
 
 As a member of the yacht club you anchor for free (even leaving your boat here for months at a time if you wish), you’ll receive fresh, clean drinking water with which to fill your tanks and the showers are excellent.  There’s also free wifi in the bar and onsite facilities for doing laundry (by hand) and you can use their P.O box address for deliveries (address on contacts page).  
 
-The boatyard beneath the club has a workshop with electricity where you can carry out maintenance tasks, and there’s a team of guys who can help with your bigger projects.  The boatyard also has some moorings available which you may be able to rent, Asana will be able to advise once you arrive.  There’s a pulley system that works as a secure dinghy dock.
+The boatyard beneath the club has a workshop with electricity where you can carry out maintenance tasks, and there’s a team of guys who can help with your bigger projects.  The boatyard also has some moorings available which you may be able to rent, Asani will be able to advise once you arrive.  There’s a pulley system that works as a secure dinghy dock.
 
 All of the staff here are absolute diamonds.  From the commodore to the committee members to the bar staff, they all go out of their way to help out yachties, show them the sights and make sure they have an unforgettable time in Tanga.  The pièce de résistance, however, is the beer at 2,500 Tsh per large 500 ml bottle (just over $1 USD), and yes, takeaways are available.  
 
