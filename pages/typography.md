@@ -2,7 +2,7 @@
 layout: layouts/page.njk
 permalink: /typography/
 title: Typography
-
+eleventyExcludeFromCollections: true
 typography: true
 ---
 

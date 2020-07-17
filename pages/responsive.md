@@ -9,6 +9,7 @@ eleventyNavigation:
   key: Responsiveness
   order: 999
 description: Calculating rhythm
+eleventyExcludeFromCollections: true
 ---
 This is the original expression from [CSS Tricks ](https://css-tricks.com/math-css-locks/):
 
