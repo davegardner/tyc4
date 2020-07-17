@@ -22,11 +22,11 @@ The building itself was built in honour of King George VI after the British requ
 
 For a fun and quirky day out, nothing beats a trip around the Amboni Caves, an underground world of halls, chambers, niches and tunnels, some with stalactites and stalagmites.  They are thought to be the most extensive limestone caves in East Africa, a one kilometer stretch of which can be explored with a local guide.  You get to squeeze, crawl and climb about, all the while taking in the ancient paintings, animal footprints and signs of witchcraft.  The guide will tell you about the different people that used these mysterious caves - and hidden in them - through the ages.  See if you can spot the rock in the shape of the Virgin Mary and Statue of Liberty.
 
-Located on Usambara Street/Independence Avenue, Tanga City Off the Tanga-Mombasa Road.
+Located 5km out of Tanga City, off the Tanga-Mombasa Road.
 
 ### Tongoni Ruins
 
-About 17 km south of Tanga City lies the Tongoni ruins, the largest collection of Shiraz Tombs in East Africa.  There are approximately 40 tombs on site as well as the remains of a Mosque that date from the 14th to 15th Century.  The ruins indicate there was once immense prosperity in the area before the Portuguese arrived and disrupted the trading routes that the coastal towns, like Tongoni, depended.
+About 17 km south of Tanga City lies the Tongoni ruins, the largest collection of Shiraz Tombs in East Africa.  There are approximately 40 tombs on site as well as the remains of a Mosque that date from the 14th to 15th Century.  The ruins indicate there was immense prosperity in the area before the Portuguese arrived and disrupted the trading routes on which the coastal towns, like Tongoni, depended.
 
 ### Pangani
 
