@@ -1,11 +1,14 @@
 ---
 layout: layouts/times.njk
-title: Responsiveness
-permalink: /responsiveness/
-description: Calculating rhythm
-date: 2020-07-10
-featuredImage: /images/uploads/_DAG6862.jpg
 featuredImageTitle: Yachts
+permalink: /responsiveness/
+featuredImage: /images/uploads/_DAG6862.jpg
+date: 2020-07-10
+title: Responsiveness
+eleventyNavigation:
+  key: Responsiveness
+  order: 999
+description: Calculating rhythm
 ---
 This is the original expression from [CSS Tricks ](https://css-tricks.com/math-css-locks/):
 
@@ -42,3 +45,17 @@ And if we refactor this we get:
   }
 }
 ```
+
+## Images
+Images are uploaded full-size (between 200px and 4000px wide).
+
+The size of an image is specified in two ways:
+
+- by html/css attributes such as `<img width="200"...>`
+
+- and by appending the size as a querystring parameter to the image url as `/images/sample.jpg?nf_size=fit&w=200`
+
+Image workflow relies on:
+- git lfs
+
+- Netlify CLI
