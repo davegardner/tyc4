@@ -109,8 +109,84 @@ dave@nuc3:~/Projects/tyc4$ ls -al .lfsconfig
 ls: cannot access '.lfsconfig': No such file or directory
 ```
 
-The documentation (https://docs.netlify.com/large-media/setup/#configure-file-tracking) indicates I should have a `.lfsconfig` file and should commit that to the repo.
+The documentation (https://docs.netlify.com/large-media/setup/#configure-file-tracking) indicates I should have a `.lfsconfig` file and should commit that to the repo. So I found this support item: https://community.netlify.com/t/getting-this-error-while-configuring-netlify-lfs-provisioning-netlify-large-media-x-provisioning-netlify-large-media-error-error-large-media-addon-doesnt-support-the-repo-linked-to-multiple-sites/18695/8 and followed the steps to relink the repository. That resulted in a `.lfsconfig` being created !! But had no effect on the image transformations.
 
-That's as far as I have been able to diagnose. It seems something is preventing the generation of the `.lfsconfig` file.
+
+```
+dave@nuc3:~/Projects/tyc4$ netlify logout
+The "process.env.NETLIFY_AUTH_TOKEN" is still set in your terminal session
+
+To logout completely, unset the environment variable
+
+
+dave@nuc3:~/Projects/tyc4$ unset NETLIFY_AUTH_TOKEN
+dave@nuc3:~/Projects/tyc4$ netlify logout
+Already logged out
+
+To login run "netlify login"
+dave@nuc3:~/Projects/tyc4$ netlify login
+Logging into your Netlify account...
+Opening https://app.netlify.com/authorize?response_type=ticket&ticket=9c782bfb4ac6fc938672839413520ed8
+
+You are now logged into your Netlify account!
+
+Run netlify status for account details
+
+To see all available commands run: netlify help
+
+
+dave@nuc3:~/Projects/tyc4$ netlify plugins:install netlify-lm-plugin
+Installing plugin netlify-lm-plugin... installed v1.0.0
+dave@nuc3:~/Projects/tyc4$ netlify lm:install
+  ✔ Checking Git version [2.25.1]
+  ✔ Checking Git LFS version [2.11.0]
+  ✔ Checking Git LFS filters
+  ✔ Installing Netlify's Git Credential Helper for Linux
+  ✔ Configuring Git to use Netlify's Git Credential Helper
+dave@nuc3:~/Projects/tyc4$ netlify link
+Site already linked to "tyc-tz"
+Admin url: https://app.netlify.com/sites/tyc-tz
+
+To unlink this site, run: netlify unlink
+dave@nuc3:~/Projects/tyc4$ netlify lm:setup
+  ⠏ Provisioning Netlify Large Media
+  ✔ Provisioning Netlify Large Media
+  ✔ Configuring Git LFS for this site
+dave@nuc3:~/Projects/tyc4$ ls -al .lfsconfig
+-rw-rw-r-- 1 dave dave 91 Jul 17 08:40 .lfsconfig
+
+dave@nuc3:~/Projects/tyc4$ git add .lfsconfig
+```
+
+
+That's as far as I have been able to diagnose. 
 
 Any help would be gratefully received as I've already spent more than a day trying to nut this out.
+
+------
+
+I got this prompt and accurate reply from Netlify:
+
+[luke] 	luke Support Engineer
+July 17
+
+Hi, @davegardner, I’m seeing that Large Media was first configured for this site on Fri, 17 Jul 2020-07-17 05:40:48 UTC (which is just under two hours ago).
+
+So, if you’ve been working on this for over a day, the initial issue was different and it was that the Large Media add-on was no installed for this site.
+
+First, I would ask that you test a new deploy. The current deploy was published on Fri, 17 Jul 2020 05:35:26 UTC +00:00. This is five minutes before the Large Media add-on was installed so it is impossible for that deploy to have used Large Media.
+
+Second, before you deploy, would also double check that all Git LFS tracked files are already uploaded to our Git LFS service (Large Media)? This can be done using the command below:
+
+git lfs push --all origin
+
+Running this if we already have the assets won’t hurt anything. It will just do nothing. If we don’t have the assets, this will make certain that we do.
+
+Once that is done, make a change to the site repo, commit it, and git push to trigger a new build at Netlify.
+
+If this doesn’t help to get the Large Media assets working, please let us know.
+
+Visit Topic or reply to this email to respond.
+
+To unsubscribe from these emails, click here.
+
