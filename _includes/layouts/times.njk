@@ -11,8 +11,14 @@ layout: layouts/base.njk
 
 </header>
 
-<img class="post-splash" src="{{ featuredImage | url }}" alt="{{ featuredImageTitle }}" ></img>
-
+<img src="{{ featuredImage | url }}?nf_resize=fit&w=800" 
+    alt="{{ featuredImageTitle }}"
+    srcset="
+        {{ featuredImage | url }}?nf_resize=fit&w=400 400w,   
+        {{ featuredImage | url }}?nf_resize=fit&w=800 800w,   
+        {{ featuredImage | url }}?nf_resize=fit&w=1200 1200w,   
+        {{ featuredImage | url }}?nf_resize=fit&w=2400 2400w
+        ">
 <main >
     <article class="times">
         <div class="wrapper">
