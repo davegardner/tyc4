@@ -80,8 +80,7 @@ header h1 {
   font-weight: 600;
   margin-top: 0rem;
   margin-right: 60px;
-  padding-top:25px;
-  
+  padding-top: 25px;
 }
 
 header h1 a {
@@ -101,8 +100,7 @@ header h1 a {
 img.logo {
   width: auto;
   float: left;
-  padding: 10px 0 0.5rem 1rem;;
-
+  padding: 10px 0 0.5rem 1rem;
 }
 
 .hero h1 {
@@ -126,13 +124,13 @@ article {
 }
 
 .wrapper {
-  /* display: flex; */
-  justify-content: center;
-  align-items: stretch;
+  text-align: center;
 }
 .content {
   max-width: var(--break1);
   padding-top: 0.7em;
+  text-align: left;
+  display: inline-block;
 }
 
 .content,
@@ -141,7 +139,7 @@ footer {
   padding-right: var(--horizontal-padding);
 }
 
-aside{
+aside {
   padding-left: calc(var(--horizontal-padding) / 2);
   padding-right: calc(var(--horizontal-padding) / 2);
 }
