@@ -8,4 +8,6 @@ featuredImage: /images/uploads/DSC00359.jpeg
 
 Currently there are no restrictions on entering or leaving Tanzania. You can [clear in](/clearing-in/) without quarantine and clear out when you want to.
 
+Visas are being extended for yachts currently here, but there are no guarantees that such extensions will be granted in future.
+
 Hand-washing before entering any premises is heavily encouraged, and masks are worn in some places. Social distancing is practiced.
