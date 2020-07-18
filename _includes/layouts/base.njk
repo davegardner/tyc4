@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>TYC</title>
     <link href="/css/tyc.css" rel="stylesheet">
     <link rel='icon' href='/favicon.ico' type='image/x-icon'/ >
@@ -16,27 +16,26 @@
     {{ content | safe }}
 
     <footer>
-    {% markdown "/partials/footer.md" %}
+      {% markdown "/partials/footer.md" %}
     </footer>
 
-    {% if eleventy_env.environment != "local" %}
-      {# The following script supports Netlify CMS #}
-      <script>
-        if (window.netlifyIdentity) {
-          window
-            .netlifyIdentity
-            .on("init", user => {
-              if (!user) {
-                window
-                  .netlifyIdentity
-                  .on("login", () => {
-                    document.location.href = "/admin/";
-                  });
-              }
-            });
-        }
-      </script>
-    {% endif %} 
+    {# The following script supports Netlify CMS #}
+    <script>
+      if (window.netlifyIdentity) {
+        window
+          .netlifyIdentity
+          .on("init", user => {
+            if (!user) {
+              window
+                .netlifyIdentity
+                .on("login", () => {
+                  document.location.href = "/admin/";
+                });
+            }
+          });
+      }
+    </script>
+    
     <script src="/js/tyc.js"></script>
 
   </body>

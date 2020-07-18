@@ -1,9 +1,9 @@
 ---
 layout: layouts/posts.njk
 permalink: /times/
-title: The Tanga Times
+title: The TYC Times
 eleventyNavigation:
-    key: Tanga Times
+    key: TYC Times
     order: 70
 class: "times"
 ---

@@ -10,4 +10,4 @@ title: Aside
 
 - [Provisioning](/times/provisioning/)
 
-Visit [TYC Tanga Times](/times/) for much more information.
+Visit [TYC Times](/times/) for much more information.
