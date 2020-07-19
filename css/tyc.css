@@ -471,3 +471,15 @@ aside ul {
 aside ul li {
   margin-bottom: calc(var(--rhythm) / 4);
 }
+
+/* map */
+#mapid {
+  height: 800px;
+  width: 80vw;
+  max-width:1000px;
+}
+
+.tyc-google-map{
+  border: 2px solid var(--dark-color);
+  width: 99%;
+}

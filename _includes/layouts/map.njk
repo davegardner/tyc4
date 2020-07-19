@@ -10,22 +10,22 @@ layout: layouts/base.njk
     {% include "hamburger.njk" %}
 </header>
 <main >
-    <article class="{{ class }}">
+    <article class="page">
         <div class="wrapper">
             <div class="content">
-                
+
                 <h1>{{ title }}</h1>
-                
-                {% if class == "times" %}
-                    <h6>Tanga, Tanzania &ndash; {% fullBuildDate %}</h6>
-                {% endif %}
+
+                <h6>Tanga, Tanzania &ndash; {% fullBuildDate %}</h6>
+
+                {% include "google-map.njk" %}
 
                 {{ content | safe }}
-            
+
             </div>
         </div>
     </article>
-    <aside>
-           {% include "aside.njk" %}
-    </aside>
+    {# <aside>
+        {% include "aside.njk" %}
+    </aside> #}
 </main>
