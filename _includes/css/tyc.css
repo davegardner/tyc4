@@ -479,3 +479,36 @@ aside ul li {
   width: 100%;
   height: 79vh;
 }
+
+/* Contact Form **************************/
+form {
+  padding: 2em 0;
+  text-align: center;
+}
+
+form label {
+  display: none;
+}
+
+input,
+textarea,
+button {
+  width: 90%;
+  padding: 1em;
+  margin-bottom: 1em;
+	font-size: 1rem;
+	font-family: var(--heading-font);
+}
+
+input,
+textarea {
+	border: 1px solid black;
+}
+
+button {
+  max-width: 10em;
+	border: 1px solid var(--dark-color);
+	background-color: var(--nav-hamburger-color);
+	color: var(--nav-back-color);
+	cursor: pointer;
+}
