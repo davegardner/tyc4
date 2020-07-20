@@ -82,5 +82,10 @@ module.exports = function (eleventyConfig) {
   const pluginSass = require("eleventy-plugin-sass");
   eleventyConfig.addPlugin(pluginSass);
 
+  const CleanCSS = require("clean-css");
+    eleventyConfig.addFilter("cssmin", function (code) {
+      return new CleanCSS({}).minify(code).styles;
+    });
+
 };
 

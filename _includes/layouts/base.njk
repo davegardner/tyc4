@@ -3,12 +3,25 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>TYC</title>
-    <link href="/css/tyc.css" rel="stylesheet">
+    
+    <!-- <link href="/_includes/css/tyc.css" rel="stylesheet"> -->
+       
+    <!-- inline minified css -->
+    {% set css %}
+    {% include "css/tyc.css" %}
+    {% endset %}
+    <style>
+      {{css | cssmin | safe}}
+    </style>
+    
     <link rel='icon' href='/favicon.ico' type='image/x-icon'/ >
     {% if eleventy_env.environment != "local" %}
       <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     {% endif %}
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    
+ 
+
   </head>
 
   <body>

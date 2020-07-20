@@ -71,9 +71,6 @@ header {
   border: 0;
 }
 
-/* header.page {
-  padding: calc(var(--rhythm) / 2) 0 calc(var(--rhythm) / 2) 0;
-} */
 
 header h1 {
   font-size: 1.4rem;
@@ -93,7 +90,7 @@ header h1 a {
   text-align: center;
 }
 
-.hero img {
+.hero img, header img{
   width: 100%;
   display: block;
 }
@@ -172,7 +169,7 @@ aside {
   color: #000000;
 }
 
-/* Headings */
+/* Headings *****************************/
 h1 {
   font-size: 2em;
 }
@@ -213,7 +210,7 @@ footer {
   font-size: smaller;
   background: var(--footer-background);
 }
-/*
+/* Hamburger menu ******************************
  * Made by Erik Terwan
  * 24th of November 2015
  * MIT License
@@ -427,7 +424,8 @@ footer p {
   margin-bottom: var(--rhythm);
 }
 
-/* Tanga Times */
+/* Tanga Times ************************************/
+
 .times {
   font-family: var(--tanga-times-font);
   color: #2f2f2f;
@@ -454,10 +452,7 @@ footer p {
   text-align: center;
 }
 
-/* Aside */
-/* .smaller-font {
-  font-size: 0.8em;
-} */
+/* Aside ***************************/
 
 aside p {
   margin-bottom: 0;
@@ -465,7 +460,6 @@ aside p {
 }
 
 aside ul {
-  /* font-size: 0.8em; */
   padding-left: 20px;
 }
 
@@ -473,12 +467,7 @@ aside ul li {
   margin-bottom: calc(var(--rhythm) / 4);
 }
 
-/* map */
-#mapid {
-  height: 800px;
-  width: 80vw;
-  max-width: 1000px;
-}
+/* map ****************************/
 
 .tyc-wrapper-google-map {
   line-height: 0;

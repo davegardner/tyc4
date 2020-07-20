@@ -9,8 +9,6 @@ layout: layouts/base.njk
 
     {% include "hamburger.njk" %}
 
-</header>
-
 <img src="{{ featuredImage | url }}?nf_resize=fit&w=800" 
      alt="{{ featuredImageTitle }}"
      srcset="
@@ -19,6 +17,8 @@ layout: layouts/base.njk
         {{ featuredImage | url }}?nf_resize=fit&w=1200 1200w,   
         {{ featuredImage | url }}?nf_resize=fit&w=2400 2400w
         ">
+</header>
+
 <main >
     <article class="times">
         <div class="wrapper">
