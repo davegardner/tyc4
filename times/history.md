@@ -15,6 +15,8 @@ To promote boating, yachting and sailing at Tanga and the vicinity of Tanga.
 
 For this purpose to acquire or take over the effect and liabilities of the present unincorporated club known as Tanga Yacht Club. 
 
+![Stars](/images/uploads/DAG_Stars.jpg?nf_resize=fit&w=10 "The stars")
+
 This unincorporated club consisted of a small number of local people one of whom was G.W. Hatchell, a magistrate, who became the clubs first commodore in 1941. But the club was really started before 1941 by Emil Hartmann, a local building contractor, who arrived in Tanga about 1936. As far as it is known Emil Hartmann owned the first boat to be moored at the club. It was named “Lorraine” after his original home. Hartmann and Hatchell were friends and often went fishing together. He also wrote an article on fishing around Tanga and the adjacent coast, which was published in “Tanganyika Notes and Records” in 1954. Other members at that time were Eldred Hitchkock and Abdulla Karimjee, both of them were later knighted for their services to the country and the sisal industry. Alee le Maitre, also a member at that time, and G.W. Hatchell were awarded the OBE for similar services. 
 
 The club premises at that time consisted of a clearing carved from the cliff to the left of the present steps as one enters the club. A small club house was built on what is now the paved area. When the new club was formed in 1944 many new members were attracted and more boats, both power and sail began to appear. As the time went on and the club prospered and could afford it, the present structures were built up. The paved area was done by courtesy of Amboni Estates. 
