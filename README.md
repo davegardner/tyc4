@@ -190,3 +190,12 @@ Visit Topic or reply to this email to respond.
 
 To unsubscribe from these emails, click here.
 
+---
+
+- Docs on maintenance for Arthur, seb, ed and me.
+
+- Fork https://github.com/nhoizey/eleventy-plugin-images-responsiver
+  NO. Do it from Markdown-it:
+  https://github.com/tatsy/markdown-it-responsive
+
+- Call the fork markdown-it-responsive-netlify
