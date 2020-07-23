@@ -11,9 +11,9 @@ Tanga Yacht Club was founded on 1st May 1944 when a number of local businessmen 
 
 The first two stated objectives of the company were: 
 
-To promote boating, yachting and sailing at Tanga and the vicinity of Tanga. 
+- To promote boating, yachting and sailing at Tanga and the vicinity of Tanga. 
 
-For this purpose to acquire or take over the effect and liabilities of the present unincorporated club known as Tanga Yacht Club. 
+- For this purpose to acquire or take over the effect and liabilities of the present unincorporated club known as Tanga Yacht Club. 
 
 ![Stars](/images/uploads/DAG_Stars.jpg?nf_resize=fit&w=10 "The stars")
 

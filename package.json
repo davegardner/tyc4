@@ -9,7 +9,8 @@
     "eleventy-plugin-markdown-shortcode": "^1.1.0",
     "eleventy-plugin-sass": "^1.0.0",
     "luxon": "^1.24.1",
-    "markdown-it-front-matter": "^0.2.1"
+    "markdown-it-front-matter": "^0.2.1",
+    "markdown-it-responsive": "^0.1.0"
   },
   "devDependencies": {
     "@11ty/eleventy-navigation": "^0.1.5"
