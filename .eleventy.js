@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig) {
   const responsiveOptions = {
     responsive: {
       'srcset': {
-        'DAG*': [        // <= files matching this wildcard pattern
+        '*': [        // <= files matching this wildcard pattern
           {                   // rule 0
             width: 300,
             nf_resize: 'fit',
@@ -38,7 +38,7 @@ module.exports = function (eleventyConfig) {
         ]
       },
       'sizes': { // this list must match wildcard pattern above
-        'DAG*': '(min-width: 300px) 300px, (min-width: 600px) 600px, (min-width: 1200px) 1200px, 2400px',
+        '*': '(min-width: 300px) 300px, (min-width: 600px) 600px, (min-width: 1200px) 1200px, 2400px',
       }
     }
   };
