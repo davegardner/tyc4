@@ -7,6 +7,7 @@
   /* colors */
   --text-color: #505050;
   --highlight-color: #f04000;
+  --link-color: #a82d00;
   --nav-text-color: #0a0a0a;
   --nav-back-color: #f0f0f0;
   --nav-hamburger-color: #f04000;
@@ -71,7 +72,6 @@ header {
   border: 0;
 }
 
-
 header h1 {
   font-size: 1.4rem;
   font-weight: 600;
@@ -80,9 +80,13 @@ header h1 {
   padding-bottom: 30px;
 }
 
-header h1 a {
+a {
   text-decoration: none;
-  color: var(--highlight-color);
+  color: var(--link-color);
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .hero {
@@ -90,7 +94,8 @@ header h1 a {
   text-align: center;
 }
 
-.hero img, header img{
+.hero img,
+header img {
   width: 100%;
   display: block;
 }
@@ -140,7 +145,11 @@ footer {
 aside {
   padding-left: calc(var(--horizontal-padding) / 2);
   padding-right: calc(var(--horizontal-padding) / 2);
+  background: var(--aside-background);
+  font-family: var(--heading-font);
+  flex: 0 1 30%;
 }
+
 img {
   width: 100%;
 }
@@ -152,11 +161,6 @@ img {
 
 img.netlify-status {
   width: 200px;
-}
-
-aside {
-  background: var(--aside-background);
-  flex: 0 1 30%;
 }
 
 .tag {
@@ -356,11 +360,13 @@ footer {
   display: none;
   clear: both;
   padding-left: var(--horizontal-padding);
+  padding-bottom: var(--rhythm);
 }
 
 #raisin ul {
   margin: 0 0 0 0;
   font-family: var(--heading-font);
+  font-size: 41m;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
 }
@@ -368,7 +374,6 @@ footer {
 #raisin li {
   display: inline;
   padding: 0.2em;
-  font-size: 0.8rem;
 }
 
 #raisin a {
@@ -470,7 +475,7 @@ aside ul li {
 
 .tyc-wrapper-google-map {
   line-height: 0;
-  width:100%;
+  width: 100%;
 }
 
 .tyc-google-map {
@@ -495,19 +500,19 @@ button {
   width: 90%;
   padding: 1em;
   margin-bottom: 1em;
-	font-size: 1rem;
-	font-family: var(--heading-font);
+  font-size: 1rem;
+  font-family: var(--heading-font);
 }
 
 input,
 textarea {
-	border: 1px solid black;
+  border: 1px solid black;
 }
 
 button {
   max-width: 10em;
-	border: 1px solid var(--dark-color);
-	background-color: var(--nav-hamburger-color);
-	color: var(--nav-back-color);
-	cursor: pointer;
+  border: 1px solid var(--dark-color);
+  background-color: var(--nav-hamburger-color);
+  color: var(--nav-back-color);
+  cursor: pointer;
 }
