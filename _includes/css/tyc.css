@@ -65,7 +65,7 @@ footer,
 }
 aside,
 footer {
-  padding: calc(var(--rhythm) / 2) 0 calc(var(--rhythm) / 2) 0;
+  padding: calc(var(--rhythm) *  0.75) 0 calc(var(--rhythm) / 2) 0;
 }
 
 header {
@@ -414,6 +414,7 @@ body:after {
 
 ul {
   margin-bottom: var(--rhythm);
+  margin-top: 0;
 }
 
 li {
@@ -460,7 +461,6 @@ footer p {
 
 aside p {
   margin-bottom: 0;
-  font-size: 0.8em;
 }
 
 aside ul {
