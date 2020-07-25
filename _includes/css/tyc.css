@@ -205,9 +205,9 @@ h6 {
   margin: 0.5em 0 0.5em 0; /* relative to base font-size */
 }
 
-p {
+/* p {
   margin: 0 0 var(--rhythm) 0; /* relative to base font-size */
-}
+} */
 
 footer {
   font-family: var(--heading-font);
@@ -423,6 +423,7 @@ li {
 
 footer p {
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 /* mixins */
@@ -459,9 +460,9 @@ footer p {
 
 /* Aside ***************************/
 
-aside p {
+/* aside p {
   margin-bottom: 0;
-}
+} */
 
 aside ul {
   padding-left: 20px;
