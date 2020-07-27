@@ -64,13 +64,13 @@ module.exports = function (eleventyConfig) {
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {
-      zone: 'utc'
+      zone: 'local'
     }).toFormat('yy-MM-dd');
   });
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {
-      zone: 'utc'
+      zone: 'local'
     }).toFormat("dd-MM-yy");
   });
 
@@ -86,9 +86,8 @@ module.exports = function (eleventyConfig) {
 
   });
 
-  // Displays date in the form '22 JULY 2020, 11:08 AM GMT+3'
+  // Displays date in the form 'SATURDAY, 11 JULY 2020'
   eleventyConfig.addFilter("toNewspaperDate", dateObj => {
-    dateObj = new Date();
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     const date = `${days[dateObj.getDay()]}, ${dateObj.getDate()} ${months[dateObj.getMonth()]} ${dateObj.getFullYear()}`;
