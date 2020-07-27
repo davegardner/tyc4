@@ -6,7 +6,8 @@ layout: layouts/base.njk
   <div class="hero">
     <h1>Tanga Yacht Club
     </h1>
-    <img src="/images/uploads/_DAG6862.jpg?nf_resize=fit&w=800" 
+    <!-- 1007 x 455  = 2.213186813/1 = 1/0.451837140058-->
+    <img class="splash" src="/images/uploads/_DAG6862.jpg?nf_resize=fit&w=800" 
          srcset="
           /images/uploads/_DAG6862.jpg?nf_resize=fit&w=400 400w,   
           /images/uploads/_DAG6862.jpg?nf_resize=fit&w=800 800w,   
@@ -21,9 +22,7 @@ layout: layouts/base.njk
 
 <main >
   <article>
-    
     <div class="wrapper">
-
       <div class="content">
 
         {{ content | safe }}
@@ -32,6 +31,8 @@ layout: layouts/base.njk
     </div>
   </article>
   <aside>
+
     {% include "aside.njk" %}
+  
   </aside>
 </main>

@@ -48,10 +48,6 @@ body {
     display: block;
   }
 
-  /*  always display hamburger
-  nav#hamburger {
-    display: none;
-  } */
 }
 
 main,
@@ -94,7 +90,16 @@ a:hover {
   text-align: center;
 }
 
-.hero img,
+/* Set the height of the image as a ratio of the viewport width
+   to reserve space for the image while it's loading and reduce
+   browser vertical recalculations. If you change the splash image
+   then you must change the ratio here to match.  */
+img.splash{
+  width: 100%;
+  height: calc( 100vw / 2.213186813);
+  display: block;
+}
+
 header img {
   width: 100%;
   display: block;
@@ -205,15 +210,12 @@ h6 {
   margin: 0.5em 0 0.5em 0; /* relative to base font-size */
 }
 
-/* p {
-  margin: 0 0 var(--rhythm) 0; /* relative to base font-size */
-} */
-
 footer {
   font-family: var(--heading-font);
   font-size: smaller;
   background: var(--footer-background);
 }
+
 /* Hamburger menu ******************************
  * Made by Erik Terwan
  * 24th of November 2015
@@ -459,10 +461,6 @@ footer p {
 }
 
 /* Aside ***************************/
-
-/* aside p {
-  margin-bottom: 0;
-} */
 
 aside ul {
   padding-left: 20px;
