@@ -6,7 +6,7 @@ date: 2020-07-12T21:00:00.000Z
 featuredImage: /images/uploads/dsc00359.jpeg
 ---
 
-Currently there are no restrictions on entering or leaving Tanzania. You can [clear in](/times/clearing-in/) without quarantine and clear out when you want to.
+Currently there are no restrictions on entering or leaving Tanzania. You can [clear in](/times/clearing-in/) without quarantine and clear out when you want to. Please check with Tanzanian Immigration for the most recent information.
 
 Visas are being extended for yachts currently here, but there are no guarantees that such extensions will be granted in future.
 
