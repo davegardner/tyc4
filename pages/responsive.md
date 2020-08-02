@@ -60,3 +60,7 @@ Image workflow relies on:
 - git lfs
 
 - Netlify CLI
+
+- Netlify LM
+
+- Netlify LM Transforms
