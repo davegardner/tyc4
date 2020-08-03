@@ -34,7 +34,7 @@ module.exports = function (eleventyConfig) {
         ]
       },
       'sizes': { // this list must match wildcard pattern above
-        '*': '(min-width: 1200px) 2400px, (min-width: 600px) 1200px, (min-width: 450px) 600px, 100vw',
+        '*': '(min-width: 2400px) 1200px, (min-width: 1200px) 600px, (min-width: 600px) 450px, 80vw',
       }
     }
   };
