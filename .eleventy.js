@@ -18,15 +18,15 @@ module.exports = function (eleventyConfig) {
     responsive: {
       'srcset': {
         '*': [        // <= files matching this wildcard pattern
-          {                   // rule 0
-            width: 300,
-            nf_resize: 'fit',
+          {                     // rule 0
+            width: 300,         // request a file this width
+            nf_resize: 'fit',   // from netlify transformations: https://docs.netlify.com/large-media/transform-images/
           },
           {                     // rule 1
             width: 600,         // and this width
             nf_resize: 'fit'    // use netlify transformations: https://docs.netlify.com/large-media/transform-images/
           },
-          {                     // rule 2
+          {                     // rule 2, etc
             width: 1200,
             nf_resize: 'fit'
           },
@@ -38,7 +38,7 @@ module.exports = function (eleventyConfig) {
         ]
       },
       'sizes': { // this list must match wildcard pattern above
-        '*': '(min-width: 1200px) 1200px, (min-width: 600px) 600px, (min-width: 300px) 300px, 100vw',
+        '*': '(min-width: 2400px) 2400px, (min-width: 1200px) 1200px, (min-width: 600px) 600px, (min-width: 300px) 300px, 100vw',
       }
     }
   };
