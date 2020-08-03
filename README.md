@@ -3,22 +3,12 @@ Tanga Yacht Club blog
 
 After a git sync/merge remember to run `git commit -m "commit message"`
 
-To log in: `tycTyc!2020`
 
 ## Todo
 
-- Set up a new Netlify account for TYC
-- CSS
-    - images
- content:
-    - text
-    - images
+- Set up a new Netlify account for TYC and move the site there.
 - map showing TYC location for anchoring
-- map showing Tanga town and important places with pins
-
-- Is deep data merging on or off? Tags problem? It was off and should be on. But have decided against using tags for now.
-
-- SEO
+- SEO ? Need more traffic.
 
 ## Responsive Images
 
@@ -29,13 +19,63 @@ There are several types of images in the TYC website:
 - Embedded (other). Normal, smaller, images anywhere in any page, post or aside.
 
 ### Home Hero
-This gets a bit of special attention because it's on the home page. The special attention boils down to a greater number of statically formatted sized jpg files. Otherwise there is no difference between this and TYC Times Hero images.
+This gets a bit of special attention because it's on the home page. The special attention boils down to a greater number of statically formatted but dynamically sized jpgs served via Netlify LM Transformations. Otherwise there is no difference between this and TYC Times Hero images.
+
+The image is defined in `_includes/layouts/index.njk`.
 
 ### TYC Times Hero
+This is in `_includes/layouts/times.njk`. 
 
+### Embedded Images
 
-### Embedded
-One size fits all. These images are smaller, of lower quality and don't justify the work of 
+I made a plugin for MarkdownIT. Forked a repo called markdown-it-responsive into https://github.com/davegardner/markdown-it-responsive.git. 
+
+You must provide some options for it in `.eleventy.js` like this:
+
+```js
+  const responsiveOptions = {
+    responsive: {
+      'srcset': {
+        '*': [        // <= files matching this wildcard pattern
+          {                     // rule 0
+            width: 450,         // request a file this width
+            nf_resize: 'fit',   // from netlify transformations: https://docs.netlify.com/large-media/transform-images/
+          },
+          {                     // rule 1
+            width: 800,         // and this width
+            nf_resize: 'fit'    // use netlify transformations: https://docs.netlify.com/large-media/transform-images/
+          },
+          {                     // rule 2, etc
+            width: 1200,
+            nf_resize: 'fit'
+          },
+          // more rules can go here
+        ]
+      },
+      'sizes': { // this list must match wildcard pattern above
+        '*': '(min-width: 1800px) 1200px, (min-width: 1200px) 800px, (min-width: 560px) 450px, 80vw',
+      }
+    }
+  };
+```
+NOTE: the above options define just a single transform that will match all image files (` '*' `). You can define any number of rules for each wildcard.
+
+Given some standard markdown such as:
+
+```md
+![Hakuna Matata](/images/uploads/A8010101.jpg "Arthur and Mebs set off")
+```
+
+And the options above, it spits out srcsets with Netlify LM Transform image sizing querystrings, like this:
+
+```html
+<img src="/images/uploads/A8010101.jpg" 
+srcset="/images/uploads/A8010101.jpg?nf_resize=fit&amp;w=450 450w, 
+        /images/uploads/A8010101.jpg?nf_resize=fit&amp;w=800 800w, 
+        /images/uploads/A8010101.jpg?nf_resize=fit&amp;w=1200 1200w" 
+sizes="(min-width: 1800px) 1200px, (min-width: 1200px) 800px, (min-width: 560px) 450px, 80vw" 
+alt="Hakuna Matata">
+```
 
 
 ## Problems with Netlify Large Media and Transformations
@@ -199,3 +239,111 @@ To unsubscribe from these emails, click here.
   https://github.com/tatsy/markdown-it-responsive
 
 - Call the fork markdown-it-responsive-netlify
+
+---
+# Image Handling
+
+Image handling is quite complex. It is based on git LFS (Large File System). Git LFS susbtitutes small text 'smudge' files for images and uploads images separately, directly to the backing store. This takes advantage of the fact jpg and most other image formats are already compressed. It also saves your repo from getting filled with images.
+
+Netlify provide the backing store and, once git lfs and all the Netlify paraphernalia are installed, images are uploaded/downloaded using standard git push/pull commands. The NetlifyCMS Media Store works OK with Git LFS
+
+## Git LFS
+
+```bash
+git lfs install
+git lfs track "*.jpg"
+git lfs track "*.psd"
+git lfs track "*.jpeg"
+git add .gitattributes
+``` 
+
+## Netlify CLI
+
+- Installed Netlify CLI with `npm install netlify-cli -g`
+
+- Confirmed deployment with `netlify status`
+
+- Linked to my Netlify account via Github with `netlify link`
+
+- Authenticated with `netlify login`
+
+## Netlify Large Media
+
+Installed the netlify Large Media plugin:
+
+```bash
+netlify plugins:install netlify-lm-plugin
+netlify lm:install
+```
+
+The docs say I should be *presented with a custom command to run in order to use Netlify Large Media in your shell.* But I get the following:
+
+```bash
+dave@nuc3:~/Projects/Anjea$ netlify lm:install
+  ✔ Checking Git version [2.25.1]
+  ✔ Checking Git LFS version [2.11.0]
+  ✔ Checking Git LFS filters
+  ✔ Installing Netlify's Git Credential Helper for Linux
+  ✔ Configuring Git to use Netlify's Git Credential Helper
+dave@nuc3:~/Projects/Anjea$ 
+```
+
+## Netlify Identity Config
+
+Enabled Netlify Git Gateway at https://app.netlify.com/sites/anjeat2/settings/identity#services
+
+Added myself as administrator by sending me an invitation thru Netlify Identity at https://app.netlify.com/sites/anjeat2/settings/identity
+
+## LFS Not Working
+
+Getting the following error when attempting to deploy on Netlify:
+
+```bash
+11:32:21 AM: Error checking out branch: Downloading _site/images/uploads/_dag6857-2.jpg (2.2 MB)
+Error downloading object: _site/images/uploads/_dag6857-2.jpg (c4071bf): Smudge error: Error downloading _site/images/uploads/_dag6857-2.jpg (c4071bf66e62f2a34655bc7279daa4c1fd7b2785390bc1866bc4568334901359): batch request: missing protocol: ""
+```
+
+Finally resolved by reinstalling/configuring netlify cli:
+
+Run `netlify status` for account details.
+
+To see all available commands run `netlify help`
+
+
+```bash
+dave@nuc3:~/Projects/Anjea$ netlify init
+
+This site has been initialized
+
+Site Name:  anjeat2
+Site Url:   https://test.anjea.info
+Site Repo:  https://github.com/davegardner/anjea
+Site Id:    051dce2d-be15-4628-9380-5ad7f1ce25be
+Admin URL:  https://app.netlify.com/sites/anjeat2
+
+To disconnect this directory and create a new site (or link to another siteId)
+1. Run netlify unlink
+2. Then run netlify init again
+dave@nuc3:~/Projects/Anjea$ netlify link
+Site already linked to "anjeat2"
+Admin url: https://app.netlify.com/sites/anjeat2
+
+To unlink this site, run: netlify unlink
+dave@nuc3:~/Projects/Anjea$ netlify lm:setup
+  ⠦ Provisioning Netlify Large Media
+  ✔ Provisioning Netlify Large Media
+  ✔ Configuring Git LFS for this site
+dave@nuc3:~/Projects/Anjea$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.lfsconfig
+
+nothing added to commit but untracked files present (use "git add" to track)
+dave@nuc3:~/Projects/Anjea$ git add .lfsconfig
+
+```
+
+It then builds.
