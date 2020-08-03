@@ -23,7 +23,7 @@ module.exports = function (eleventyConfig) {
             nf_resize: 'fit',   // from netlify transformations: https://docs.netlify.com/large-media/transform-images/
           },
           {                     // rule 1
-            width: 600,         // and this width
+            width: 800,         // and this width
             nf_resize: 'fit'    // use netlify transformations: https://docs.netlify.com/large-media/transform-images/
           },
           {                     // rule 2, etc
@@ -34,7 +34,7 @@ module.exports = function (eleventyConfig) {
         ]
       },
       'sizes': { // this list must match wildcard pattern above
-        '*': '(min-width: 2400px) 1200px, (min-width: 1200px) 600px, (min-width: 600px) 450px, 80vw',
+        '*': '(min-width: 1800px) 1200px, (min-width: 1200px) 800px, (min-width: 600px) 450px, 80vw',
       }
     }
   };
