@@ -8,9 +8,9 @@ featuredImage: /images/uploads/A8010046.jpg
 
 Saturday saw the lauch of *Hakuna Matata* (*No Worries*). OK, so she isn't *new* new but she is new to the club and the first new dinghy here in a while, and it is a big day for Mebs, the proud owner.
 
-There are groans when the last cleat tears off the mast (woops!) leaving no place to tie off the halyards, but the combined ingenuity of yachties who have crossed oceans to get here soon finds a way.
+There are groans when the last cleat tears off the mast (woops!) leaving no place to tie off the halyards, but the combined ingenuity of yachties who have crossed oceans to get here for this day soon finds a way.
 
-The slippery slipway is negotiated and Hakuna Matata floats! Arthur and Mebs jump in and head off for a jaunt across the bay. Conditions are perfect with plenty of breeze and Hakuna Matata laps it up.
+The slippery slipway is negotiated and Hakuna Matata floats! There is no champagne but Arthur grabs a beer and he and Mebs jump in and head off for a jaunt across the bay. Conditions are perfect with plenty of breeze and Hakuna Matata laps it up.
 
 ![Hakuna Matata](/images/uploads/A8010101.jpg "Arthur and Mebs set off")
 
@@ -21,5 +21,3 @@ The slippery slipway is negotiated and Hakuna Matata floats! Arthur and Mebs jum
 ![Hakuna Matata](/images/uploads/A8010177.jpg "Arthur and Mebs in Hakuna Matata")
 
 ![Hakuna Matata](/images/uploads/A8010193.jpg "Arthur and Mebs in Hakuna Matata")
-
-
