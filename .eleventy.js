@@ -19,7 +19,7 @@ module.exports = function (eleventyConfig) {
       'srcset': {
         '*': [        // <= files matching this wildcard pattern
           {                     // rule 0
-            width: 300,         // request a file this width
+            width: 450,         // request a file this width
             nf_resize: 'fit',   // from netlify transformations: https://docs.netlify.com/large-media/transform-images/
           },
           {                     // rule 1
@@ -30,15 +30,11 @@ module.exports = function (eleventyConfig) {
             width: 1200,
             nf_resize: 'fit'
           },
-          {                     // rule 3
-            width: 2400,
-            nf_resize: 'fit'
-          },
           // more rules can go here
         ]
       },
       'sizes': { // this list must match wildcard pattern above
-        '*': '(min-width: 2400px) 2400px, (min-width: 1200px) 1200px, (min-width: 600px) 600px, (min-width: 300px) 300px, 100vw',
+        '*': '(min-width: 1200px) 2400px, (min-width: 600px) 1200px, (min-width: 450px) 600px, 100vw',
       }
     }
   };
