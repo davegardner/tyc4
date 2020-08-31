@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/page.njk
 title: "Tanga cruising and tourism "
 eleventyNavigation:
   order: 50
