@@ -5,25 +5,31 @@ section: contact
 date: 2018-01-01
 permalink: /contact/
 eleventyNavigation:
-    key: Contact Us
-    order: 90
+  key: Contact Us
+  order: 90
 ---
-
 #### GPS
+
 05°03’S, 039°07’E (off the town).
 
 #### Email
-something@tanga-yacht-club.or.tz
 
-#### Commodore
-Arthur Heywood  
-Whatsapp  +255 673150252  
-Skype: arthur_heywood_za  
-Email:
+* tycmanageress@gmail.com
+* tyctanga@gmail.com
+* *something*@tanga-yacht-club.or.tz
+
+#### Commodore / Sailing member
+
+Arthur Heywood\
+Whatsapp  +255 673150252\
+Skype: arthur_heywood_za\
+Email: arthurheywood@gmail.com
 
 #### Mail Address
-Tanga Yacht Club  
+
+Tanga Yacht Club\
 P.O. Box 346, Tanga, Tanzania
 
 #### Phone
+
 +255 027 264 4246
