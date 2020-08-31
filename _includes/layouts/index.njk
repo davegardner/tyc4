@@ -7,12 +7,12 @@ layout: layouts/base.njk
     <h1>Tanga Yacht Club
     </h1>
     <!-- 1007 x 455  = 2.213186813/1 = 1/0.451837140058-->
-    <img class="splash" src="/images/uploads/_DAG6862.jpg?nf_resize=fit&w=800" 
+    <img class="splash" src="{{ featuredImage }}?nf_resize=fit&w=800" 
          srcset="
-          /images/uploads/_DAG6862.jpg?nf_resize=fit&w=400 400w,   
-          /images/uploads/_DAG6862.jpg?nf_resize=fit&w=800 800w,   
-          /images/uploads/_DAG6862.jpg?nf_resize=fit&w=1200 1200w,   
-          /images/uploads/_DAG6862.jpg?nf_resize=fit&w=2400 2400w
+          {{ featuredImage }}?nf_resize=fit&w=400 400w,   
+          {{ featuredImage }}?nf_resize=fit&w=800 800w,   
+          {{ featuredImage }}?nf_resize=fit&w=1200 1200w,   
+          {{ featuredImage }}?nf_resize=fit&w=2400 2400w
           "
           sizes="100vw">
   </div>

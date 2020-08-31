@@ -5,6 +5,7 @@ permalink: /
 eleventyNavigation:
   key: Home
   order: 1
+featuredImage: /images/uploads/_DAG6862.jpg
 ---
 # Karibu!
 
