@@ -14,7 +14,18 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Date", name: "date", widget: "date", default: ""}
-      - {label: "Featured Image", name: "featuredImage", widget: "image"}
+      - {label: "Featured Image", name: "featuredImage", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+ - name: "places"        #The name of the collection and should match our posts.json file's tag
+   label: "Cruising and Tourism"       #The name of the collection on the CMS itself
+   folder: "places"      #The folder that our blog posts will be loaded from and saved to
+   create: true             #Tells the CMS that new posts can be created
+   slug: "{{slug}}"  #this sets the URL for the post
+   fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/times.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Featured Image", name: "featuredImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
  - name: "pages"        #The name of the collection and should match our pages.json file's tag
    label: "Pages"       #The name of the collection on the CMS itself
@@ -22,7 +33,7 @@ collections:
    create: true             #Tells the CMS that new pages can be created
    slug: "{{slug}}"  #this sets the URL for the page
    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.njk"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
         name: "eleventyNavigation"
