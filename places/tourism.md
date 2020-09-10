@@ -1,5 +1,5 @@
 ---
-layout: layouts/times.njk
+layout: layouts/places.njk
 title: Tourism
 description: Tanga and surrounds.
 date: 2020-07-12T21:00:00.000Z
