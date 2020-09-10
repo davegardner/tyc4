@@ -5,6 +5,7 @@ class: times
 <div class="times">
     {{ content | safe }}
 </div>
-
-{% set postslist = collections.times %}
-{% include "postslist.njk" %}
+<p></p>
+{# {% if (set postslist = collectionApi.getFilteredByTag(postCollection)) %} #}
+{% set postslist = postCollection %}
+    {% include "postslist.njk" %}

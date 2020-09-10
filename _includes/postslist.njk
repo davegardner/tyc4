@@ -1,5 +1,5 @@
 <ul>
-    {% for post in postslist | sort(postslist, reverse, caseSens, attr) %}
+    {% for post in postslist | sort(postslist, true) %}
         <li>
             <a href="{{ post.url }}">{{ post.data.title }}
             &ndash;

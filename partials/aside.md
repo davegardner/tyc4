@@ -9,4 +9,4 @@ title: Aside
 
 Visit [TYC Times](/times/) for much more information.
 
-Check out our [Map](/map/) and [Places of Interest](/times/places/).
+Check out our [Map](/map/) and [Places of Interest](/places/).
