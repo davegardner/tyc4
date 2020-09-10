@@ -27,6 +27,17 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Featured Image", name: "featuredImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+ - name: "about"        #The name of the collection and should match our posts.json file's tag
+   label: "About TYC"       #The name of the collection on the CMS itself
+   folder: "about"      #The folder that our blog posts will be loaded from and saved to
+   create: true             #Tells the CMS that new posts can be created
+   slug: "{{slug}}"  #this sets the URL for the post
+   fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/times.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Featured Image", name: "featuredImage", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
  - name: "pages"        #The name of the collection and should match our pages.json file's tag
    label: "Pages"       #The name of the collection on the CMS itself
    folder: "pages"      #The folder that our blog posts will be loaded from and saved to

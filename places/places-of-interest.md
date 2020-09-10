@@ -1,5 +1,5 @@
 ---
-layout: layouts/times.njk
+layout: layouts/places.njk
 title: Places of Interest
 description: In addition to local attractions, Tanga is a great place from which
   to launch your Tanzanian safari.

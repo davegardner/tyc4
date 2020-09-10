@@ -1,9 +1,6 @@
 ---
 layout: layouts/page.njk
-title: "Tanga cruising and tourism "
-eleventyNavigation:
-  order: 50
-  key: "Cruising and Tourism "
+title: "Tanga Cruising and Tourism"
 ---
 Things to do around Tanga by land and sea 
 
