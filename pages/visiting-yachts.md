@@ -1,9 +1,9 @@
 ---
-layout: layouts/times.njk
-title: Clearing In
-description: How to contact the Harbour Master, Immigration and Health.
-date: 2020-07-12T21:00:00.000Z
-featuredImage: /images/uploads/_dag7207.jpg
+layout: layouts/page.njk
+title: Visiting Yachts
+eleventyNavigation:
+  order: 50
+  key: Visitors
 ---
 ### Yacht Club contact
 
@@ -27,10 +27,8 @@ For Immigration you will need a valid passport.  Visas can be obtained from Immi
 
 Customs formalities are then completed at the office inside the entrance to the port.  They are open between 0800 hrs until 1600 hrs, five days a week.  You will need Clearance Papers from your last country of departure and a crew list for Customs.
 
-#### Transire: 
+#### Transire:
 
 If you have already checked into Tanzania, a Transire from your last Tanzanian port is required by Customs although recent reports suggest that this is seldom enforced.  If you have already cleared into Tanzania, checking in with Immigration is not required.
 
 If you want to cruise within Tanzania, it is best to get a transire on departure from Tanga
-
-
