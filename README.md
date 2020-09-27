@@ -11,7 +11,84 @@ This is a Jamstack website. It is a static website built using [eleventy](https:
 - SEO ? Need more traffic.
 
 
+
+## Technology Stack
+
+**Eleventy.** I selected Eleventy as the static site generator because of its simplicity. 
+
+**Nunjucks** is possibly the most powerful of the emerging template languages and is well supported by Mozilla. It is simple to use and well documented.
+
+**MarkdownIT** is the default Markdown editor for Eleventy. It supports the Markdown 'standard' as well as an array of options and plugins.
+
+**markdown-it-responsive.** To support Netlify Large Media Transforms I made a plugin for MarkdownIT. Forked a repo called markdown-it-responsive into https://github.com/davegardner/markdown-it-responsive.git. 
+
+**Netlify** website hosting without servers or devops. Deploys directly from the website's git repository. The configuration page is at https://app.netlify.com/sites/tyc-tz/overview. 
+
+**Netlify CMS** integrates with Netlify, Eleventy and Git to provide content management.
+
+**Git** hosts the repository for the website source at https://github.com/davegardner/tyc4.git.
+
+## Domain Name
+
+The Netlify internal url is https://tyc-tz.netlify.app/ Do not use this URL. Always use the Primary domain name:
+
+A Primary external domain name has been registered by Sebasian: https://www.tanga-yacht-club.or.tz and https://tanga-yacht-club.or.tz. These are the public URLs that should be used to advertise and access the site.
+
+The DNS servers are Netlify servers, which allows Netlify to optimize content delivery on-the-fly. Note that there is no fixed IP address associated with the domain's A record: everything is dynamic.
+
+## General Design
+
+The website is a simple conventional website with three separate blogs:
+
+- TYC Times for general news
+- Places for write-ups about places of interest
+- About for historical and other club information
+
+In addition there is a menu structure delivering access to a small number of fixed 'pages'.
+
+## Markdown
+
+MarkdownIt supports the Common Markdown standard.
+
+- Quick cheat sheet: https://commonmark.org/help/
+- Details of Common Markdown: https://commonmark.org/
+
+The following MarkdownIt options are enabled in eleventy.js:
+
+```js
+  html: true,     // Html tags can be entered directly into the markdown
+  breaks: false,  // Ignore newlines within a para
+  linkify: true   // Raw links are allowed and will display as entered
+```
+
+## Git
+
+The source of truth is a Git repository at https://github.com/davegardner/tyc4.git.
+
+Changes made to this repo automatically trigger Netlify to fetch the changes and rebuild the site. This is not instantaneous and may take up to a couple of minutes.
+
+Netlify CMS updates this repo as required (thus triggering Netlify to rebuild the website).
+
+## Admin
+
+https://tanga-yacht-club.or.tz/admin
+
+uses Netlify CMS
+
+Netlify CMS is actually independent of Netlify.
+
+Netlify CMS handles adding and editing site content, and storing it in the Git repository.
+
 ## Responsive Images
+
+You should aim to upload large high quality jpeg photos. The images are automatically resized and cached for clients when they visit the website. There may be a slight delay the first time an image is requested but after that it is very fast.
+
+The following image formats are handled:
+- *.jpg
+- *.jpeg
+- *.png
+
+The best way to add images is to add them using Netlify CMS at https://tanga-yacht-club.or.tz/admin.
 
 There are several types of images in the TYC website:
 
@@ -24,8 +101,15 @@ This gets a bit of special attention because it's on the home page. The special 
 
 The image is defined in `_includes/layouts/index.njk`.
 
-### Post Hero
-This is in `_includes/layouts/times.njk` and corresponding places and about templates. Post Hero images are optional.
+### Post Hero (also called Featured Images)
+
+Post hero images are specified as part of a Post. TYC Times, About and Places all provide for hero optional images. The image generation is handled by the following templates:
+
+- `_includes/layouts/times.njk`
+- `_includes/layouts/about.njk`
+- `_includes/layouts/places.njk`
+
+Post Hero images are optional.
 
 ### Embedded Images
 
@@ -52,8 +136,9 @@ You must provide some options for it in `.eleventy.js` like this:
           },
           // more rules can go here
         ]
+        // more wildcard patterns can go here
       },
-      'sizes': { // this list must match wildcard pattern above
+      'sizes': { // this list must have an entry for each wildcard pattern above. ie: 1:1
         '*': '(min-width: 1800px) 1200px, (min-width: 1200px) 800px, (min-width: 560px) 450px, 80vw',
       }
     }
@@ -81,7 +166,7 @@ alt="Hakuna Matata">
 
 # Image Handling
 
-Image handling is quite complex. It is based on git LFS (Large File System). Git LFS substitutes small text 'smudge' files for images and uploads images separately, directly to the backing store. This takes advantage of the fact jpg and most other image formats are already compressed. It also saves your repo from getting filled with images.
+Image handling is quite complex. It is based on git LFS (Large File System). Git LFS substitutes small text 'smudge' files for images and uploads images separately, directly to the backing store (`netlify.com`, in this case). This takes advantage of the fact jpg and most other image formats are already compressed. It also saves your repo from getting filled with images.
 
 Netlify provide the backing store and, once git lfs and all the Netlify paraphernalia are installed, images are uploaded/downloaded using standard git push/pull commands. The NetlifyCMS Media Store works OK with Git LFS
 
