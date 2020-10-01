@@ -33,6 +33,8 @@ report was of a stranding from Songo Songo. The first reported sighting of the y
 
 ## <a id="Links"></a>Links 
 
-Send an email to Gill Braulik, gillbraulik@gmail.com, or use your WhatsApp phone to join the group:
+[Use this form](https://docs.google.com/forms/d/e/1FAIpQLSe1Cch4cKiP_jbFodOn2A2FsW-PW618dHvWZEGYg3QKH-f0gA/viewform) to report humpback sightings.
+
+To join the group send an email to Gill Braulik, gillbraulik@gmail.com, or use your WhatsApp phone to join:
 
 ![TZ Marine](/images/uploads/TZMarineEntry.jpg "")
