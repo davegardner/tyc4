@@ -8,7 +8,7 @@ date: 2020-09-21T23:00:00.000Z
 
 *<span>Photo by <a href="https://unsplash.com/@ferbelmont?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Fernando Gutierrez</a> on <a href="https://unsplash.com/s/photos/humpback-whale?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*
 
-The Tanzanian Whale Network was formed in 2018 and is an informal network of people who are frequently on the ocean in Tanzania and who report sightings of humpback whales. This is citizen science in action. A WhatsApp group provides realtime sightings, and the data reports are consolidated each year to provide a picture of whale numbers at various times and places along the coast. The group encourages everyone who is regularly on the water to join, including fishermen, sailors and boaties of all sorts.
+Find out when and where whales frequent the places you sail and fish. The Tanzanian Whale Network wants you to join them. This informal network of people who are frequently on the ocean in Tanzania was formed in 2018 and is citizen science in action. A WhatsApp group provides realtime sightings, and the data reports are consolidated each year to provide a picture of whale numbers at various times and places along the coast. The group encourages everyone who is regularly on the water to join, including fishermen, sailors and boaties of all sorts.
 
 
 ## Humpback whales
