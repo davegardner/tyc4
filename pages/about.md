@@ -2,6 +2,9 @@
 layout: layouts/page.njk
 title: About Tanga Yacht Club
 permalink: /about-old/
+eleventyNavigation:
+  key: About
+  order: 1
 ---
 TYC is a place for families and yachties to spend the day relaxing by the ocean, taking dips in the water.  It’s beautiful, and at dusk the inky blues of the sea meet the pinks and yellows of the sky to create one heck of a sundowner backdrop.  You have to see it to believe it. 
 
@@ -21,7 +24,7 @@ The yacht club is inexpensive to join and loves to welcome new members.
 
 A temporary membership costs 60,000 Tsh / $25 USD per month and requires a 100,000 Tsh / $43 USD deposit which naturally you get back at the end.  You pay the deposit directly into the bank which is a painless process.
 
-There’s a form to fill in which asks for your address and passport numbers and requires signatures from two members of the committee which is also easy to arrange.  Just ask Mercy, the office manager, for a form.  As a temporary member you receive a book with a unique bar number that you top up with cash (either at the bank or by card at the bar) and then all of your drinks come off from there.  When you run low on funds you just top up again.
+There’s a form to fill in which asks for your address and passport numbers and requires signatures from two members of the committee which is also easy to arrange.  Just ask Max, the office manager, for a form.  As a temporary member you receive a book with a unique bar number that you top up with cash (either at the bank or by card at the bar) and then all of your drinks come off from there.  When you run low on funds you just top up again.
 
 #### Daily Membership
 
@@ -31,11 +34,11 @@ If you are only staying for a short period you’ll want to pay the weekly fee o
 
 Opening hours are daily from 1100 (ish) to 1430 (ish) and then again from 1730 to 2200 (ish) except on Fridays, Saturdays and Sundays when it’s open all day.
 
-The delicious on-site restaurant has the same opening hours although is currently closed on Mondays and Tuesdays. 
+The delicious on-site restaurant has the same opening hours.
 
 ### The restaurant
 
-It’s worth crossing the Indian Ocean just for Cecelia's fish and chips.  There’s no tiny portion of something soggy here.  It’s a crispy, lemony bounty piled high on the plate that makes your mouth start watering the moment you see Anthony strolling towards you with it on his tray. 
+It’s worth crossing the Indian Ocean just for Cecelia's fish and chips.  There’s no tiny portion of something soggy here.  It’s a crispy, lemony bounty piled high on the plate that makes your mouth start watering the moment you see it coming from the kitchen.
 
 But let’s not be unfair to the other dishes, because they are awesome too.  Like the fish paka - fresh fish in a coconut sauce - which you can have with rice, or chips or a huge mound of mash (FYI the Tanzanian potato is a marvel, so that mash is something else), or the beef pita pocket; a lighter lunchtime bite that’s packed with flavour, or the KFC chicken (yup, they cater for everyone here).  
 
