@@ -11,7 +11,7 @@ To arrange Port Health and Immigration you can email Max (the office manager) in
 
 Max's number: +255 683 551 196
 
-Email: tyctanga@gmail.com
+Email: tangayacht@gmail.com
 
 ### Port control
 
