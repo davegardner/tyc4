@@ -14,9 +14,7 @@ eleventyNavigation:
 
 #### Email
 
-* tycmanageress@gmail.com
-* tyctanga@gmail.com
-* *something*@tanga-yacht-club.or.tz
+* tangayacht@gmail.com
 
 #### Mail Address
 
@@ -25,22 +23,26 @@ P.O. Box 346, Tanga, Tanzania
 
 #### Phone
 
-+255 27 264 4246
++255 683 551 196
 
-## Committee members (2019 / 2020)
+## Committee members (2022 / 2023)
 
-Commodore/Sailing Arthur Heywood +255 673150252 arthurheywood@gmail.com
+Commodore: Edward Hill +255 754 078 899 edwardmartinhill@hotmail.com
 
-Vice commodore      Arvind Riat
+Vice commodore: Arvind Riat
 
-Secretary                 Geoff Quick
+Secretary: Quresh Ganiji
 
-Treasurer                 Mehbs Piramehboob
+Treasurer: Agnelo Fernandes
 
-Bar / Boating           Eric Verheij
+Sailing: Arthur Heywood +255 673150252 arthurheywood@gmail.com
 
-House                     Alnoor Hussein
+Bar: Moiz Yamani
 
-Fishing                    Steve Atwell 
+House: John Mlughu
 
-Beach                     Edward Hill
+Fishing: Steve Atwell 
+
+Beach: Tery Kane
+
+Entertainment: Mustafa JIvanjee
