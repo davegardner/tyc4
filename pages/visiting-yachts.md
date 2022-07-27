@@ -7,11 +7,11 @@ eleventyNavigation:
 ---
 ### Yacht Club contact
 
-To arrange Port Health and Immigration you can email Mercy (the office manager) in advance or, if you are able, call her once you arrive.  She will alert them both to your arrival.  
+To arrange Port Health and Immigration you can email Max (the office manager) in advance or, if you are able, call him once you arrive.  He will alert them both to your arrival.  
 
-Mercy's number: +255 715 766 706
+Max's number: +255 683 551 196
 
-Email: tycmanageress@gmail.com
+Email: tyctanga@gmail.com
 
 ### Port control
 
