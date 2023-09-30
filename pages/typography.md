@@ -4,8 +4,10 @@ permalink: /typography/
 title: Typography
 eleventyExcludeFromCollections: true
 typography: true
+eleventyNavigation:
+  key: Typ
+  order: 1
 ---
-
 # Heading 1
 
 ## Heading 2
@@ -22,7 +24,7 @@ typography: true
 
 ## Heading 2 Which is a Very Very Long Headi-|-ng That Will Wrap Around an-|- Around and Around
 
-# Heading 1
+# Heading One
 
 Twas brilling and the slithy toves did gyr -|- and gimbal in the wabe. Al-|-  mimsy were the borogoves and the mome raths outgrabe. Beware the Jaberwock, my son! The claws that catch, the teeth that bite! Beware the Jubjub bird and shun the frumious Bandersnatch.
 
@@ -64,4 +66,3 @@ Twas brilling and the slithy toves did gyre and gimbal in the wabe.
 All mimsy were the borogoves and the mome raths outgrabe.
 Beware the Jaberwock, my son! The claws that catch, the teeth that bite!
 Beware the Jubjub bird and shun the frumious Bandersnatch.
-
